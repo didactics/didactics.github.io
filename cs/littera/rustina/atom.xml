@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Didactics CZ</title>
+  <title>Projekt Littera na portálu Didactics CZ</title>
   <link href="http://didactics.cz/cs/littera/rustina/atom.xml" rel="self" />
-  <updated>2016-04-19T14:12:17+02:00</updated>
+  <updated>2016-04-19T14:36:02+02:00</updated>
   <id>http://didactics.cz</id>
   <author>
     <name>Didaktický portál Didactics CZ</name>
     <email>admin@didactics.cz</email>
   </author>
+  <summary>Publikované materiály projektu Littera</summary>
   
 	<entry>
 		<title>Alexandra – píseň z filmu „Moskva slzám nevěří“</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/alexandra_pisen_z_filmu_moskva_slzam_neveri.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/alexandra_pisen_z_filmu_moskva_slzam_neveri.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/alexandra_pisen_z_filmu_moskva_slzam_neveri.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#alexandra--pse-z-filmu-moskva-slzm-nev&quot; id=&quot;markdown-toc-alexandra--pse-z-filmu-moskva-slzm-nev&quot;&gt;Alexandra – píseň z filmu „Moskva slzám nevěří“&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -45,7 +46,7 @@
 	<entry>
 		<title>Audiovizuální metoda</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/audiovizualni_metoda.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/audiovizualni_metoda.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/audiovizualni_metoda.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#audiovizuln-metoda&quot; id=&quot;markdown-toc-audiovizuln-metoda&quot;&gt;Audiovizuální metoda&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#popis-materilu&quot; id=&quot;markdown-toc-popis-materilu&quot;&gt;Popis materiálu&lt;/a&gt;&lt;/li&gt;
@@ -69,7 +70,7 @@
 	<entry>
 		<title>Azbuka – hry</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_hry.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_hry.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_hry.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#azbuka--hry&quot; id=&quot;markdown-toc-azbuka--hry&quot;&gt;Azbuka – hry&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -105,7 +106,7 @@
 	<entry>
 		<title>Azbuka – opakování, procvičování</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_opakovani_procvicovani.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_opakovani_procvicovani.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_opakovani_procvicovani.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#azbuka--opakovn-procviovn&quot; id=&quot;markdown-toc-azbuka--opakovn-procviovn&quot;&gt;Azbuka – opakování, procvičování&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -138,7 +139,7 @@
 	<entry>
 		<title>Azbuka - osmisměrka (ruská kuchyně)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_osmismerka_(kuchyne).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_osmismerka_(kuchyne).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_osmismerka_(kuchyne).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#azbuka---osmismrka-rusk-kuchyn&quot; id=&quot;markdown-toc-azbuka---osmismrka-rusk-kuchyn&quot;&gt;Azbuka - osmisměrka (ruská kuchyně)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -168,7 +169,7 @@
 	<entry>
 		<title>Azbuka – písanka</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_pisanka.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_pisanka.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_pisanka.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#azbuka--psanka&quot; id=&quot;markdown-toc-azbuka--psanka&quot;&gt;Azbuka – písanka&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -199,7 +200,7 @@
 	<entry>
 		<title>Azbuka – procvičování</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_procvicovani.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_procvicovani.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_procvicovani.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#azbuka--procviovn&quot; id=&quot;markdown-toc-azbuka--procviovn&quot;&gt;Azbuka – procvičování&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -230,7 +231,7 @@
 	<entry>
 		<title>Azbuka – procvičování 2</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_procvicovani_2.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_procvicovani_2.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/azbuka_procvicovani_2.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#azbuka--procviovn-2&quot; id=&quot;markdown-toc-azbuka--procviovn-2&quot;&gt;Azbuka – procvičování 2&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -261,7 +262,7 @@
 	<entry>
 		<title>Bajkal</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/bajkal.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/bajkal.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/bajkal.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#bajkal&quot; id=&quot;markdown-toc-bajkal&quot;&gt;Bajkal&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -292,7 +293,7 @@
 	<entry>
 		<title>Blahopřání</title>
 		<link href="http://didactics.cz/cs/littera/rustina/ustni_projev/blahoprani.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/blahoprani.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/blahoprani.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#anotace-materilu&quot; id=&quot;markdown-toc-anotace-materilu&quot;&gt;Anotace materiálu&lt;/a&gt;&lt;/li&gt;
@@ -320,7 +321,7 @@
 	<entry>
 		<title>Bydlení</title>
 		<link href="http://didactics.cz/cs/littera/rustina/ustni_projev/bydleni.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/bydleni.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/bydleni.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#bydlen&quot; id=&quot;markdown-toc-bydlen&quot;&gt;Bydlení&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -351,7 +352,7 @@
 	<entry>
 		<title>Čaroděj – nedouk (Маг-недоучка) – práce s písní</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/carodej_nedouk_(prace_s_pisni).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/carodej_nedouk_(prace_s_pisni).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/carodej_nedouk_(prace_s_pisni).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#arodj--nedouk----prce-s-psn&quot; id=&quot;markdown-toc-arodj--nedouk----prce-s-psn&quot;&gt;Čaroděj – nedouk (Маг-недоучка) – práce s písní&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -384,7 +385,7 @@
 	<entry>
 		<title>Cestujeme do Ruska</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/cestujeme_do_ruska.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/cestujeme_do_ruska.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/cestujeme_do_ruska.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#cestujeme-do-ruska&quot; id=&quot;markdown-toc-cestujeme-do-ruska&quot;&gt;Cestujeme do Ruska&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -415,7 +416,7 @@
 	<entry>
 		<title>Co se učí ve škole (Чему учат в школе)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/co_se_uci_ve_skole.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/co_se_uci_ve_skole.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/co_se_uci_ve_skole.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#co-se-u-ve-kole----&quot; id=&quot;markdown-toc-co-se-u-ve-kole----&quot;&gt;Co se učí ve škole (Чему учат в школе)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -448,7 +449,7 @@
 	<entry>
 		<title>Email</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/email.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/email.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/email.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#email&quot; id=&quot;markdown-toc-email&quot;&gt;Email&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -479,7 +480,7 @@
 	<entry>
 		<title>Emoce</title>
 		<link href="http://didactics.cz/cs/littera/rustina/hry/emoce.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/emoce.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/emoce.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#emoce&quot; id=&quot;markdown-toc-emoce&quot;&gt;Emoce&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -510,7 +511,7 @@
 	<entry>
 		<title>Etiketa – zdvořilostní fráze</title>
 		<link href="http://didactics.cz/cs/littera/rustina/ustni_projev/etiketa_zdvorilostni_fraze.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/etiketa_zdvorilostni_fraze.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/etiketa_zdvorilostni_fraze.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#etiketa--zdvoilostn-frze&quot; id=&quot;markdown-toc-etiketa--zdvoilostn-frze&quot;&gt;Etiketa – zdvořilostní fráze&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -541,7 +542,7 @@
 	<entry>
 		<title>GUM – Glavnyj universalnyj magazin</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/gum.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/gum.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/gum.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#gum--glavnyj-universalnyj-magazin&quot; id=&quot;markdown-toc-gum--glavnyj-universalnyj-magazin&quot;&gt;GUM – Glavnyj universalnyj magazin&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -572,7 +573,7 @@
 	<entry>
 		<title>Hudba</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/hudba.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/hudba.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/hudba.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#hudba&quot; id=&quot;markdown-toc-hudba&quot;&gt;Hudba&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -607,7 +608,7 @@
 	<entry>
 		<title>Ikona Kazaňské Bohorodičky</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/ikona_kazanske_bohorodicky.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/ikona_kazanske_bohorodicky.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/ikona_kazanske_bohorodicky.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#ikona-kazask-bohorodiky&quot; id=&quot;markdown-toc-ikona-kazask-bohorodiky&quot;&gt;Ikona Kazaňské Bohorodičky&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -640,7 +641,7 @@
 	<entry>
 		<title>Ivan Ivanyč samovar – práce s uměleckým textem</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/ivan_ivanyc_samovar.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/ivan_ivanyc_samovar.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/ivan_ivanyc_samovar.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#ivan-ivany-samovar--prce-s-umleckm-textem&quot; id=&quot;markdown-toc-ivan-ivany-samovar--prce-s-umleckm-textem&quot;&gt;Ivan Ivanyč samovar – práce s uměleckým textem&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -675,7 +676,7 @@
 	<entry>
 		<title>Jak se vaří a pije čaj po rusku</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/jak_se_vari_a_pije_caj_po_rusku.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/jak_se_vari_a_pije_caj_po_rusku.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/jak_se_vari_a_pije_caj_po_rusku.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#jak-se-va-a-pije-aj-po-rusku&quot; id=&quot;markdown-toc-jak-se-va-a-pije-aj-po-rusku&quot;&gt;Jak se vaří a pije čaj po rusku&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -706,7 +707,7 @@
 	<entry>
 		<title>Korespondence</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/korespondence.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/korespondence.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/korespondence.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#korespondence&quot; id=&quot;markdown-toc-korespondence&quot;&gt;Korespondence&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -739,7 +740,7 @@
 	<entry>
 		<title>Máša a medvěd</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/masa_a_medved.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/masa_a_medved.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/masa_a_medved.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#ma-a-medvd&quot; id=&quot;markdown-toc-ma-a-medvd&quot;&gt;Máša a medvěd&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -770,7 +771,7 @@
 	<entry>
 		<title>Máša a medvěd – Máša vypráví pohádky</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/masa_a_medved_masa_vypravi_pohadky.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/masa_a_medved_masa_vypravi_pohadky.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/masa_a_medved_masa_vypravi_pohadky.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#ma-a-medvd--ma-vyprv-pohdky&quot; id=&quot;markdown-toc-ma-a-medvd--ma-vyprv-pohdky&quot;&gt;Máša a medvěd – Máša vypráví pohádky&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -803,7 +804,7 @@
 	<entry>
 		<title>Mobilní telefon</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/mobilni_telefon.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/mobilni_telefon.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/mobilni_telefon.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#mobiln-telefon&quot; id=&quot;markdown-toc-mobiln-telefon&quot;&gt;Mobilní telefon&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -834,7 +835,7 @@
 	<entry>
 		<title>Mobilní telefon – popis částí</title>
 		<link href="http://didactics.cz/cs/littera/rustina/ustni_projev/mobilni_telefon_popis_casti.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/mobilni_telefon_popis_casti.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/mobilni_telefon_popis_casti.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#mobiln-telefon--popis-st&quot; id=&quot;markdown-toc-mobiln-telefon--popis-st&quot;&gt;Mobilní telefon – popis částí&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -865,7 +866,7 @@
 	<entry>
 		<title>Moje velká rodina</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/moje_velka_rodina.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/moje_velka_rodina.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/moje_velka_rodina.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#moje-velk-rodina&quot; id=&quot;markdown-toc-moje-velk-rodina&quot;&gt;Moje velká rodina&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -896,7 +897,7 @@
 	<entry>
 		<title>Moskevské metro</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/moskevske_metro.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/moskevske_metro.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/moskevske_metro.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#moskevsk-metro&quot; id=&quot;markdown-toc-moskevsk-metro&quot;&gt;Moskevské metro&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -927,7 +928,7 @@
 	<entry>
 		<title>Moskva</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/moskva.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/moskva.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/moskva.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#moskva&quot; id=&quot;markdown-toc-moskva&quot;&gt;Moskva&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -960,7 +961,7 @@
 	<entry>
 		<title>Můj dům – to jsem já (Мой дом – это я)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/muj_dum_to_jsem_ja.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/muj_dum_to_jsem_ja.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/muj_dum_to_jsem_ja.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#mj-dm--to-jsem-j-----&quot; id=&quot;markdown-toc-mj-dm--to-jsem-j-----&quot;&gt;Můj dům – to jsem já (Мой дом – это я)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -991,7 +992,7 @@
 	<entry>
 		<title>Na nádraží</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/na_nadrazi.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/na_nadrazi.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/na_nadrazi.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#na-ndra&quot; id=&quot;markdown-toc-na-ndra&quot;&gt;Na nádraží&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1026,7 +1027,7 @@
 	<entry>
 		<title>Nakupování – obchodní centrum nebo tržnice</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/nakupovani_obchodni_centrum_nebo_trznice.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/nakupovani_obchodni_centrum_nebo_trznice.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/nakupovani_obchodni_centrum_nebo_trznice.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#nakupovn--obchodn-centrum-nebo-trnice&quot; id=&quot;markdown-toc-nakupovn--obchodn-centrum-nebo-trnice&quot;&gt;Nakupování – obchodní centrum nebo tržnice&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1057,7 +1058,7 @@
 	<entry>
 		<title>Nákupy – reklamní leták</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/nakupy_reklamni_letak.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/nakupy_reklamni_letak.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/nakupy_reklamni_letak.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#nkupy--reklamn-letk&quot; id=&quot;markdown-toc-nkupy--reklamn-letk&quot;&gt;Nákupy – reklamní leták&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1094,7 +1095,7 @@
 	<entry>
 		<title>O sobě</title>
 		<link href="http://didactics.cz/cs/littera/rustina/ustni_projev/o_sobe.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/o_sobe.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/o_sobe.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#o-sob&quot; id=&quot;markdown-toc-o-sob&quot;&gt;O sobě&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1125,7 +1126,7 @@
 	<entry>
 		<title>Obchod „Čaj a káva“ na Mjasnické</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/obchod_caj_a_kava_na_mjasnicke.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/obchod_caj_a_kava_na_mjasnicke.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/obchod_caj_a_kava_na_mjasnicke.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#obchod-aj-a-kva-na-mjasnick&quot; id=&quot;markdown-toc-obchod-aj-a-kva-na-mjasnick&quot;&gt;Obchod „Čaj a káva“ na Mjasnické&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1156,7 +1157,7 @@
 	<entry>
 		<title>Oblečení</title>
 		<link href="http://didactics.cz/cs/littera/rustina/hry/obleceni.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/obleceni.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/obleceni.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#obleen&quot; id=&quot;markdown-toc-obleen&quot;&gt;Oblečení&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1187,7 +1188,7 @@
 	<entry>
 		<title>Odkazy cara Petra Velikého</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/odkazy_cara_petra_velikeho.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/odkazy_cara_petra_velikeho.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/odkazy_cara_petra_velikeho.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#odkazy-cara-petra-velikho&quot; id=&quot;markdown-toc-odkazy-cara-petra-velikho&quot;&gt;Odkazy cara Petra Velikého&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1218,7 +1219,7 @@
 	<entry>
 		<title>Oficiální dopis</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/oficialni_dopis.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/oficialni_dopis.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/oficialni_dopis.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#oficiln-dopis&quot; id=&quot;markdown-toc-oficiln-dopis&quot;&gt;Oficiální dopis&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1249,7 +1250,7 @@
 	<entry>
 		<title>Osobní dopis</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/osobni_dopis.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/osobni_dopis.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/osobni_dopis.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#osobn-dopis&quot; id=&quot;markdown-toc-osobn-dopis&quot;&gt;Osobní dopis&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1280,7 +1281,7 @@
 	<entry>
 		<title>Partnerský diktát</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/partnersky_diktat.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/partnersky_diktat.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/partnersky_diktat.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#partnersk-diktt&quot; id=&quot;markdown-toc-partnersk-diktt&quot;&gt;Partnerský diktát&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1311,7 +1312,7 @@
 	<entry>
 		<title>Petrohrad</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/petrohrad.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/petrohrad.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/petrohrad.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#petrohrad&quot; id=&quot;markdown-toc-petrohrad&quot;&gt;Petrohrad&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1344,7 +1345,7 @@
 	<entry>
 		<title>Píseň prvňáčka (Песенка первоклассника)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/pisen_prvnacka.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/pisen_prvnacka.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/pisen_prvnacka.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#pse-prvka--&quot; id=&quot;markdown-toc-pse-prvka--&quot;&gt;Píseň prvňáčka (Песенка первоклассника)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1377,7 +1378,7 @@
 	<entry>
 		<title>Písnička o tatínkovi – Песенка о папе</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/pisnicka_o_tatinkovi.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/pisnicka_o_tatinkovi.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/pisnicka_o_tatinkovi.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#psnika-o-tatnkovi----&quot; id=&quot;markdown-toc-psnika-o-tatnkovi----&quot;&gt;Písnička o tatínkovi – Песенка о папе&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1410,7 +1411,7 @@
 	<entry>
 		<title>Pití čaje</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/piti_caje.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/piti_caje.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/piti_caje.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#pit-aje&quot; id=&quot;markdown-toc-pit-aje&quot;&gt;Pití čaje&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1441,7 +1442,7 @@
 	<entry>
 		<title>Pohádka „O řepě“</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/pohadka_o_repe.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/pohadka_o_repe.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/pohadka_o_repe.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#pohdka-o-ep&quot; id=&quot;markdown-toc-pohdka-o-ep&quot;&gt;Pohádka „O řepě“&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1472,7 +1473,7 @@
 	<entry>
 		<title>Pohádky o žabáku podivínovi</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/pohadky_o_zabaku_podivinovi.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/pohadky_o_zabaku_podivinovi.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/pohadky_o_zabaku_podivinovi.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#pohdky-o-abku-podivnovi&quot; id=&quot;markdown-toc-pohdky-o-abku-podivnovi&quot;&gt;Pohádky o žabáku podivínovi&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1503,7 +1504,7 @@
 	<entry>
 		<title>Poslechová cvičení</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/poslechova-cviceni.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/poslechova-cviceni.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/poslechova-cviceni.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#poslechov-cvien&quot; id=&quot;markdown-toc-poslechov-cvien&quot;&gt;Poslechová cvičení&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#section&quot; id=&quot;markdown-toc-section&quot;&gt;Машенька (ш, щ) – 0:20&lt;/a&gt;&lt;/li&gt;
@@ -1587,7 +1588,7 @@
 	<entry>
 		<title>Pošta</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/posta.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/posta.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/posta.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#pota&quot; id=&quot;markdown-toc-pota&quot;&gt;Pošta&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1618,7 +1619,7 @@
 	<entry>
 		<title>Proč se mi líbí slon (Почему мне нравится слон? – в зоопарке) – práce s písní</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/proc_se_mi_libi_slon_(prace_s_pisni).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/proc_se_mi_libi_slon_(prace_s_pisni).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/proc_se_mi_libi_slon_(prace_s_pisni).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#pro-se-mi-lb-slon---------prce-s-psn&quot; id=&quot;markdown-toc-pro-se-mi-lb-slon---------prce-s-psn&quot;&gt;Proč se mi líbí slon (Почему мне нравится слон? – в зоопарке) – práce s písní&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1651,7 +1652,7 @@
 	<entry>
 		<title>Profese</title>
 		<link href="http://didactics.cz/cs/littera/rustina/jdu_na_vyuku/profese.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/jdu_na_vyuku/profese.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/jdu_na_vyuku/profese.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#profese&quot; id=&quot;markdown-toc-profese&quot;&gt;Profese&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1684,7 +1685,7 @@
 	<entry>
 		<title>Rodina – slova</title>
 		<link href="http://didactics.cz/cs/littera/rustina/hry/rodina-slova.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/rodina-slova.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/rodina-slova.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#rodina--slova&quot; id=&quot;markdown-toc-rodina--slova&quot;&gt;Rodina – slova&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1715,7 +1716,7 @@
 	<entry>
 		<title>Rodina – doplňovačka</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/rodina_doplnovacka.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/rodina_doplnovacka.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/rodina_doplnovacka.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#rodina--doplovaka&quot; id=&quot;markdown-toc-rodina--doplovaka&quot;&gt;Rodina – doplňovačka&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1746,7 +1747,7 @@
 	<entry>
 		<title>Rodinní příslušníci</title>
 		<link href="http://didactics.cz/cs/littera/rustina/jdu_na_vyuku/rodinni_prislusnici.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/jdu_na_vyuku/rodinni_prislusnici.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/jdu_na_vyuku/rodinni_prislusnici.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#rodinn-pslunci&quot; id=&quot;markdown-toc-rodinn-pslunci&quot;&gt;Rodinní příslušníci&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1782,7 +1783,7 @@
 	<entry>
 		<title>Rudé náměstí</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/rude_namesti.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/rude_namesti.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/rude_namesti.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#rud-nmst&quot; id=&quot;markdown-toc-rud-nmst&quot;&gt;Rudé náměstí&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1814,7 +1815,7 @@
 	<entry>
 		<title>Rusko</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/rusko.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/rusko.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/rusko.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#rusko&quot; id=&quot;markdown-toc-rusko&quot;&gt;Rusko&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1847,7 +1848,7 @@
 	<entry>
 		<title>Samovar – historie samovaru</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/samovar_historie_samovaru.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/samovar_historie_samovaru.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/samovar_historie_samovaru.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#samovar--historie-samovaru&quot; id=&quot;markdown-toc-samovar--historie-samovaru&quot;&gt;Samovar – historie samovaru&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1878,7 +1879,7 @@
 	<entry>
 		<title>Samovar – Pych-Pych samovar (práce s písní)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/samovar_pych-pych_samovar_(prace_s_pisni).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/samovar_pych-pych_samovar_(prace_s_pisni).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/samovar_pych-pych_samovar_(prace_s_pisni).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#samovar--pych-pych-samovar-prce-s-psn&quot; id=&quot;markdown-toc-samovar--pych-pych-samovar-prce-s-psn&quot;&gt;Samovar – Pych-Pych samovar (práce s písní)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1911,7 +1912,7 @@
 	<entry>
 		<title>Seznámení v kavárně</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/seznameni_v_kavarne.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/seznameni_v_kavarne.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/seznameni_v_kavarne.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#seznmen-v-kavrn&quot; id=&quot;markdown-toc-seznmen-v-kavrn&quot;&gt;Seznámení v kavárně&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1944,7 +1945,7 @@
 	<entry>
 		<title></title>
 		<link href="http://didactics.cz/cs/littera/rustina/sitemap.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/sitemap.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/sitemap.html</id>
 		<content type="html">&lt;h1 id=&quot;mapa-strnek&quot;&gt;Mapa stránek&lt;/h1&gt;
 
 &lt;ul&gt;
@@ -1960,7 +1961,7 @@
 	<entry>
 		<title>Školní uniforma</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/skolni_uniforma.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/skolni_uniforma.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/skolni_uniforma.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#koln-uniforma&quot; id=&quot;markdown-toc-koln-uniforma&quot;&gt;Školní uniforma&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -1991,7 +1992,7 @@
 	<entry>
 		<title>Sport</title>
 		<link href="http://didactics.cz/cs/littera/rustina/ustni_projev/sport_(sportovni_vybaveni_a_discipliny).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/sport_(sportovni_vybaveni_a_discipliny).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/ustni_projev/sport_(sportovni_vybaveni_a_discipliny).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#sport&quot; id=&quot;markdown-toc-sport&quot;&gt;Sport&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2026,7 +2027,7 @@
 	<entry>
 		<title>Stalinské výškové budovy</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/stalinske_vyskove_budovy.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/stalinske_vyskove_budovy.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/stalinske_vyskove_budovy.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#stalinsk-vkov-budovy&quot; id=&quot;markdown-toc-stalinsk-vkov-budovy&quot;&gt;Stalinské výškové budovy&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2057,7 +2058,7 @@
 	<entry>
 		<title>Talismany olympiády v Soči 2014</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/talismany_olympiady_v_soci_2014.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/talismany_olympiady_v_soci_2014.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/talismany_olympiady_v_soci_2014.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#talismany-olympidy-v-soi-2014&quot; id=&quot;markdown-toc-talismany-olympidy-v-soi-2014&quot;&gt;Talismany olympiády v Soči 2014&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2088,7 +2089,7 @@
 	<entry>
 		<title>Telefon (Korněj Čukovskij)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/telefon_(kornej_cukovskij).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/telefon_(kornej_cukovskij).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/telefon_(kornej_cukovskij).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#telefon-kornj-ukovskij&quot; id=&quot;markdown-toc-telefon-kornj-ukovskij&quot;&gt;Telefon (Korněj Čukovskij)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2121,7 +2122,7 @@
 	<entry>
 		<title>Telefonování a SMS zprávy</title>
 		<link href="http://didactics.cz/cs/littera/rustina/pisemny_projev/telefonovani_a_sms_zpravy.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/telefonovani_a_sms_zpravy.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/pisemny_projev/telefonovani_a_sms_zpravy.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#telefonovn-a-sms-zprvy&quot; id=&quot;markdown-toc-telefonovn-a-sms-zprvy&quot;&gt;Telefonování a SMS zprávy&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2152,7 +2153,7 @@
 	<entry>
 		<title>V kině</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/v_kine.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/v_kine.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/v_kine.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#v-kin&quot; id=&quot;markdown-toc-v-kin&quot;&gt;V kině&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2187,7 +2188,7 @@
 	<entry>
 		<title>V obchodě s hračkami</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/v_obchode_s_hrackami.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/v_obchode_s_hrackami.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/v_obchode_s_hrackami.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#v-obchod-s-hrakami&quot; id=&quot;markdown-toc-v-obchod-s-hrakami&quot;&gt;V obchodě s hračkami&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2222,7 +2223,7 @@
 	<entry>
 		<title>Vinovata li ja (práce s písní)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/vinovata_li_ja_(prace_s_pisni).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/vinovata_li_ja_(prace_s_pisni).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/vinovata_li_ja_(prace_s_pisni).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#vinovata-li-ja-prce-s-psn&quot; id=&quot;markdown-toc-vinovata-li-ja-prce-s-psn&quot;&gt;Vinovata li ja (práce s písní)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2255,7 +2256,7 @@
 	<entry>
 		<title>Vse mogut koroli (práce s písní)</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/vse_mogut_koroli_(prace_s_pisni).html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/vse_mogut_koroli_(prace_s_pisni).html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/vse_mogut_koroli_(prace_s_pisni).html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#vse-mogut-koroli-prce-s-psn&quot; id=&quot;markdown-toc-vse-mogut-koroli-prce-s-psn&quot;&gt;Vse mogut koroli (práce s písní)&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2288,7 +2289,7 @@
 	<entry>
 		<title>Výběr dárku</title>
 		<link href="http://didactics.cz/cs/littera/rustina/poslech/vyber_darku.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/vyber_darku.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/poslech/vyber_darku.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#vbr-drku&quot; id=&quot;markdown-toc-vbr-drku&quot;&gt;Výběr dárku&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2323,7 +2324,7 @@
 	<entry>
 		<title>Výtvarné umění – Ilja Jefimovič Repin</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/vytvarne_umeni_ilja_jefimovic_repin.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/vytvarne_umeni_ilja_jefimovic_repin.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/vytvarne_umeni_ilja_jefimovic_repin.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#vtvarn-umn--ilja-jefimovi-repin&quot; id=&quot;markdown-toc-vtvarn-umn--ilja-jefimovi-repin&quot;&gt;Výtvarné umění – Ilja Jefimovič Repin&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2356,7 +2357,7 @@
 	<entry>
 		<title>Začátek školního roku – prvního září</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/zacatek_skolni_roku_prvniho_zari.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/zacatek_skolni_roku_prvniho_zari.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/zacatek_skolni_roku_prvniho_zari.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#zatek-kolnho-roku--prvnho-z&quot; id=&quot;markdown-toc-zatek-kolnho-roku--prvnho-z&quot;&gt;Začátek školního roku – prvního září&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2387,7 +2388,7 @@
 	<entry>
 		<title>Zázračná ikona</title>
 		<link href="http://didactics.cz/cs/littera/rustina/cteni/zazracna_ikona.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/zazracna_ikona.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/cteni/zazracna_ikona.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#zzran-ikona&quot; id=&quot;markdown-toc-zzran-ikona&quot;&gt;Zázračná ikona&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;&lt;/li&gt;
@@ -2420,7 +2421,7 @@
 	<entry>
 		<title>Zvířata</title>
 		<link href="http://didactics.cz/cs/littera/rustina/hry/zvirata.html" />
-		<updated>2016-04-19T14:12:17+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/zvirata.html</id>
+		<updated>2016-04-19T14:36:02+02:00</updated><id>http://didactics.cz/cs/littera/rustina/hry/zvirata.html</id>
 		<content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#zvata&quot; id=&quot;markdown-toc-zvata&quot;&gt;Zvířata&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#zaazen-materilu-podle-serrj&quot; id=&quot;markdown-toc-zaazen-materilu-podle-serrj&quot;&gt;Zařazení materiálu podle SERRJ&lt;/a&gt;        &lt;ul&gt;
