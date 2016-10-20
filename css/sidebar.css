@@ -1,4 +1,4 @@
-/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: admin@didactics.cz
+/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: legal@didactics.cz
  */
 
 /* for AddThis Sharing Sidebar */
@@ -44,7 +44,7 @@
 	margin-left: 0;
     border-radius: 0;
     border: 0;
-    border-right: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(204, 204, 204);    
 }
 
 @media only screen and (max-width : 480px) {

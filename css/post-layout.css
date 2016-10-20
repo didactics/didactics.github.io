@@ -1,4 +1,4 @@
-/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: admin@didactics.cz
+/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: legal@didactics.cz
  */
 
 /*
@@ -9,12 +9,31 @@
 }
 */
 
+#main-menu {
+/*    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);*/
+/*
+    -webkit-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);    
+*/
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 #brand {
 	color: white;
 }
 
+/*
+#brand:hover {
+	font-weight: bold;
+}
+*/
+
 .littera-logos {
     position: relative;
+    color: white; /* to hide Alt text*/
 }
 
 .littera-logos-links {
@@ -33,7 +52,7 @@
 
 a.esfcr {
     left: 4.8%;
-    width: 26.1%;
+    width: 26.1%;    
 }
 
 a.eu {
@@ -54,4 +73,8 @@ a.op-vk {
 .footnote {
 /*    font-weight: bold;*/
     font-size: 10pt;
+}
+
+#disqus_thread {
+	margin-top: 20px;
 }

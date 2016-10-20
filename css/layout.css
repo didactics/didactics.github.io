@@ -1,4 +1,4 @@
-/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: admin@didactics.cz
+/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: legal@didactics.cz
  */
 
 /* xs 320, ms 480, sm 768, md 992, lg 1200 */
@@ -14,20 +14,17 @@
 
 .h6, h6 {
 	font-size: 18px;
-    padding-left: 20px;
-    margin-top: 20px;
 }
 
 .h5, h5 {
 	font-size: 19px;
 /*    color: #337ab7;*/
     padding-left: 15px;
-    margin-top: 20px;
 }
 
 .h4, h4 {
 	font-size: 20px;
-    padding-left: 10px;    
+    padding-left: 10px;
 }
 
 .h3, h3 {
@@ -67,6 +64,16 @@ h1, h2, h3, h4, h5, h6,
 .footnote-img {
     margin-top: -15px;
     max-width: 300px;
+}
+
+.footnote-img.licence {
+    text-align: right;
+	padding-right: 30px;
+}
+
+.footnote-img.licence img {
+ 	max-width: 60%;
+	margin-top: 20px;
 }
 
 .footnote-text {
@@ -166,6 +173,39 @@ body {
     float: left;
 }
 
+.top-caption {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 5%;    
+}
+
+.top-caption img {
+    padding: 5px;
+}
+
+.cc-logo, .cc-descr {
+    text-align: center;
+}
+
+/*
+.cc-logo {
+    margin-bottom: -10px;
+}
+*/
+
+.cc-descr {
+ 	background-color: #337ab7;
+	color: white;
+	font-weight: bold;
+	padding: 5px !important;
+    margin-bottom: 20px;
+}
+
+.cc-descr:hover {
+ 	background-color: #23527c;
+}
+
 @media only screen and (max-width: 768px) {    
     .social-share, .social-media-share {
         text-align: center;
@@ -189,7 +229,10 @@ body {
     }
     .copyright {
         margin-top: 15px !important;
-    }
+    }    
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }    
 }
 
 .social-share {
@@ -257,6 +300,21 @@ body.modal-open {
 .navbar {
     border-radius: 0;
     margin-bottom: 0;
+    z-index: 100; /* for the shadow*/
+/*    font-size: 16px;*/
+}
+/*
+.navbar-brand {
+    font-size: 16px;
+}
+*/
+
+.navbar-header {
+    z-index: 100;
+}
+
+.navbar-nav > li {
+/*    z-index: -1;*/
 }
 
 #study {
@@ -449,6 +507,15 @@ input[name=primaryemail] {
         display: block;
         margin-left: auto;
         margin-right: auto; 
+    }
+    
+    .footnote-img.licence {
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    .footnote-img.licence img {
+        margin-bottom: 10px;
     }
     .footnote-text {
         text-align: center;

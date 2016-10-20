@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /legal/
+Allow: /
+Allow: /cs/littera/rustina/sitemap.html
+Sitemap: http://didactics.cz/sitemap.xml
