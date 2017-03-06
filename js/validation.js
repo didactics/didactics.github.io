@@ -13,7 +13,7 @@
 $(document).ready(function () {
     "use strict";
     
-    $('#email-subscription-form').bootstrapValidator({
+    $('#email-subscription-form #webinar-rggu-registration-modal').bootstrapValidator({
         container: '#messages',
         feedbackIcons: {
             valid: 'glyphicon glyphicon-ok',
@@ -35,17 +35,17 @@ $(document).ready(function () {
             primaryemail: {
                 validators: {
                     regex: {
-                        regexp: '/^$/' // The email address is required and cannot be empty
+                        regexp: '/^$/' // The e-mail address is required and cannot be empty
                     }
                 }
             },
             email: {
                 validators: {
                     notEmpty: {
-                        message: EMAIL_EMPTY // The email address is required and cannot be empty
+                        message: EMAIL_EMPTY // The e-mail address is required and cannot be empty
                     },
                     emailAddress: {
-                        message: EMAIL_NOT_VALID // The email address is not valid
+                        message: EMAIL_NOT_VALID // The e-mail address is not valid
                     }
                 }
             }
@@ -111,17 +111,17 @@ $(document).ready(function () {
             email: {
                 validators: {
                     notEmpty: {
-                        message: EMAIL_EMPTY // The email address is required and cannot be empty
+                        message: EMAIL_EMPTY // The e-mail address is required and cannot be empty
                     },
                     emailAddress: {
-                        message: EMAIL_NOT_VALID // The email address is not valid
+                        message: EMAIL_NOT_VALID // The e-mail address is not valid
                     }
                 }
             },
             primaryemail: {
                 validators: {
                     regex: {
-                        regexp: '/^$/' // The email address is required and cannot be empty
+                        regexp: '/^$/' // The e-mail address is required and cannot be empty
                     }
                 }
             },

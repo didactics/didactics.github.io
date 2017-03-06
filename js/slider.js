@@ -1,4 +1,4 @@
-/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: legal@didactics.cz */
+/*! Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: admin@didactics.cz */
 
 /*jslint browser: true*/
 /*global

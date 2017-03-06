@@ -22,6 +22,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
+    <meta name="robots" content="noindex" />
+    
     
     
     <title>Osobní dopis - Littera - Didactics CZ</title>
@@ -60,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
         
-    <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         
     <link rel="stylesheet" href="/css/bootstrap-480-767-grid.css">        
     <link rel="stylesheet" href="/css/layout.css">
@@ -95,7 +97,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--    <script type="text/javascript" src="/js/common.js"></script>    -->
     <script type="text/javascript" src="/js/navbar.js"></script>
 <!--    <script type="text/javascript" src="/js/locale.js"></script>-->
-<!--    <script type="text/javascript" src="/js/time.js"></script>-->
+    <script type="text/javascript" src="/js/time.js"></script>
 <!--    <script type="text/javascript" src="/js/slider.js"></script>-->
     <script type="text/javascript" src="/js/toc.js"></script>
     <script type="text/javascript" src="/js/thaffix.js"></script>
@@ -140,10 +142,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
               </button>
                 
-                <a id="brand" class="navbar-brand main-menu-brand" href="/cs/#contact">
+                <a id="brand" class="navbar-brand main-menu-brand" href="/#contact">
 <!--                    <img alt="Didactics CZ" class="img-responsive" src="/img/banner/banner5_cz.png" style="height: 100%;">-->
                     <span style="float:left">
-                    <img class="img-responsive" src="/img/favicons/a31_gray.72x72.png" style="height:40px; margin-top:-10px; margin-right:10px;">                        
+                    <img class="img-responsive" src="/img/favicons/gray/a31_gray.72x72.png" style="height:40px; margin-top:-10px; margin-right:10px;">                        
                     </span>
 <!--                    <span>Didactics</span> <span>CZ</span>-->
                     <span style="float:left">
@@ -155,18 +157,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="collapse navbar-collapse" id="mainmenu-collapsed">
               <ul class="nav navbar-nav">
                   <li id="home-item" class="main-menu-home-item">
-                      <a href="/cs/#home">
+                      <a href="/#home">
                         <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
                         <span class="sr-only"></span> 
                       </a>
                   </li>
                   <li id="search-item" class="main-menu-search-item">
-                      <a href="/cs/#search"><span class="glyphicon glyphicon-search"></span></a>
+                      <a href="/#search"><span class="glyphicon glyphicon-search"></span></a>
                   </li>                  
                   
               </ul>    
                 
               <ul class="nav navbar-nav navbar-right">
+                
 				
                   <li><a href="/cs/littera/rustina/">
                       O projektu
@@ -385,7 +388,16 @@ s.setAttribute('data-timestamp', +new Date());
         </div>
       </div>
     </div>
-    <!-- !!! -->
+    
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"Tato webová stránka používá cookies ke zlepšení prohlížení webu a poskytování dalších funkcí.","dismiss":"Souhlasím","learnMore":"Detaily","link":"/cs/legal/personal-data#cookies","theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<!-- Begin AddThis to display share icons -->
     <script type="text/javascript">
         $('.main-menu-brand').addClass('js');
         $('.main-menu-home-item').addClass('js');
@@ -399,5 +411,6 @@ s.setAttribute('data-timestamp', +new Date());
 	</script>
     
   	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56cf4e6018e0fc4f" async="async"></script>
+<!-- End AddThis -->    
     
 </body>

@@ -13,7 +13,7 @@
     
     $(document).ready(function () {
         if (navigator.userLanguage) {
-            $locale = navigator.userLanguage;
+            $locale = navigator.userLanguage;            
         } else if (navigator.language) { // FF
             $locale = navigator.language;
         } else if (navigator.browserLanguage) { // IE
@@ -53,8 +53,8 @@
                 return date;
             },
         
-            $startTimeSt = $('#contact-us-worktime-start').text(),
-            $endTimeSt = $('#contact-us-worktime-end').text(),
+            $startTimeSt = $('#worktime-start').text(),
+            $endTimeSt = $('#worktime-end').text(),
             
             startDate = makeDate($startTimeSt),
             endDate = makeDate($endTimeSt),
@@ -62,8 +62,8 @@
             startTimeSt = getTimeString(startDate),
             endTimeSt = getTimeString(endDate);
         
-        $('#contact-us-worktime-start').text(startTimeSt);
-        $('#contact-us-worktime-end').text(endTimeSt);
+        $('#worktime-start').text(startTimeSt);
+        $('#worktime-end').text(endTimeSt);
     });
     
 }());

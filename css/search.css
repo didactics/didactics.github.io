@@ -4,3 +4,7 @@
 .search-results li {
     list-style: none;
 }
+
+.search-results-nothing-found li {
+    list-style: outside;
+}

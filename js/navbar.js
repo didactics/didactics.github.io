@@ -136,6 +136,9 @@
 //                }
 //            });
 //        });
+
+        // Check the navbar initial position
+        //var topNavbar = $('nav').offset().top == 0;        
         
         $('nav').affix({
             offset: {
@@ -241,26 +244,43 @@
                 $table,
                 $tableHeader,
                 headerHeight,
+                topNavbar = $('.navbar').hasClass('navbar-fixed-top'), // navbar is always on top
                 scrollTop;
+            //alert("22");
             $(window).trigger('navbar.before-scroll-to-anchor', $target);
             scrollTop = $target.offset().top - $('.navbar').height() - 10;
-            $table = $target.closest('table');
-            if ($table) {
-                // target is inside a table, shift to the table header's height
-                $tableHeader = $table.find('thead');
-                headerHeight = $tableHeader.height();
-                scrollTop -= headerHeight;
-            }
-
+            // scrollTop = $target.offset().top; // coarse position
+            
             $('html, body').stop().animate({
                 'scrollTop': scrollTop
             },
                 Math.min(800, Math.abs(window.scrollY - $target.offset().top) / 3),
                 'swing', function () {
 //                    var saveScrollTop = document.body.scrollTop;
-                    window.location.hash = target;
+//                    alert(window.location.hash);
+//                    alert(target);
+//                    if (window.location.hash !== target) {
+//                        window.location.hash = target;
+////                        alert("changed");
+//                    }
 //                    document.body.scrollTop = saveScrollTop;
 
+                    // Recalculate as the navbar can be removed from the layout when affixed
+                    //alert(topNavbar);
+                    if (topNavbar) {
+                        scrollTop = $target.offset().top - $('.navbar').height() - 10;
+                    } else {
+                        scrollTop = $target.offset().top - 2 * $('.navbar').height() - 10;
+                    }
+                        
+                    $table = $target.closest('table');
+                    if ($table) {
+                        // target is inside a table, shift to the table header's height
+                        $tableHeader = $table.find('thead');
+                        headerHeight = $tableHeader.height();
+                        scrollTop -= headerHeight;
+                    }
+                    
                     $('html, body').stop().animate({
                         'scrollTop': scrollTop
                     }, 1, 'swing');
@@ -299,9 +319,13 @@
 //        closeIfOpen();
 //    });
         
+// Commented out as processHash() calls scrollToAnchor() too, and a menu item click calls processHash()
         $('a[href^="#"]').on('click', function (e) {
             e.preventDefault(); // !!!            
-            scrollToAnchor(this.hash);
+            //scrollToAnchor(this.hash);
+            if (window.location.hash !== this.hash) {
+                window.location.hash = this.hash; // filres hashchange which invokes scrollToAnchor()
+            }
             $(window).trigger('link.clicked', this);
         });
 
@@ -364,6 +388,9 @@
 //                    });
                     $("#search-input").focus();
                     break;
+                    
+                default: // when hash is changed from the address bar
+                    scrollToAnchor(hash);
                 }
             }
         }
@@ -373,10 +400,12 @@
 //            alert('Going to: ' + origEvent.newURL + ' from: ' + origEvent.oldURL);
 //            processHash(origEvent.newURL);
             processHash(window.location.hash);
+            //alert(window.location.hash);
         });
         
         // Hash passed in with the url
         processHash(window.location.hash);
+        //alert(window.location.hash);
         
 	});
     
