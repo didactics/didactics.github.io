@@ -13,8 +13,8 @@
 $(document).ready(function () {
     "use strict";
     
-    $('#email-subscription-form #webinar-rggu-registration-modal').bootstrapValidator({
-        container: '#messages',
+    $('.name-email-form').bootstrapValidator({
+        container: '.messages',
         feedbackIcons: {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
@@ -58,8 +58,8 @@ $(document).ready(function () {
         // Get the form instance
         var po,
             error = false,
-            $button = $('#email-subscription-form button'),
-            $modal = $('#email-subscription-modal'),
+            $button = $('.name-email-form button'),
+            $modal = $('.name-email-form-modal'),
             $form = $(e.target),
             $bv = $form.data('bootstrapValidator');
         
@@ -75,8 +75,8 @@ $(document).ready(function () {
         
         $button.prop('disabled', true);
         try {
-            po = error ? $('#email-subscription-form-popover-error') :
-                    $('#email-subscription-form-popover-success');
+            po = error ? $('.name-email-form .popover-error') :
+                    $('.name-email-form .popover-success');
             po.popover('show');
             setTimeout(function () {
                 po.popover('hide');
@@ -89,8 +89,8 @@ $(document).ready(function () {
     });
     
     
-    $('#contact-form').bootstrapValidator({
-        container: '#messages2',
+    $('.name-email-message-inline-form').bootstrapValidator({
+        container: '.messages',
         feedbackIcons: {
             valid: 'glyphicon glyphicon-ok',
             invalid: 'glyphicon glyphicon-remove',
@@ -145,7 +145,7 @@ $(document).ready(function () {
         // Get the form instance
         var po,
             error = false,
-            $button = $('#contact-form button'),
+            $button = $('.name-email-message-inline-form button'),
             $form = $(e.target),
             $bv = $form.data('bootstrapValidator');
         
@@ -161,8 +161,8 @@ $(document).ready(function () {
         
         $button.prop('disabled', true);
         try {
-            po = error ? $('#contact-form-popover-error') :
-                    $('#contact-form-popover-success');
+            po = error ? $('.name-email-message-inline-form .popover-error') :
+                    $('.name-email-message-inline-form .popover-success');
             po.popover('show');
             setTimeout(function () {
                 po.popover('hide');
@@ -174,7 +174,7 @@ $(document).ready(function () {
     });
     
     // Focus the user name (besides html5 autofocus on the element)
-    $('#email-subscription-modal').on('shown.bs.modal', function () {
+    $('.name-email-form-modal').on('shown.bs.modal', function () {
         $(this).find('input[name=name]').focus();
     });
 });

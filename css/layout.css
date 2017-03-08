@@ -373,6 +373,11 @@ input[name=primaryemail] {
     left: -973em;
 }
 
+input[name=webinar-name] {
+    position: absolute;
+    left: -973em;
+}
+
 /* http://www.himpfen.com/center-align-bootstrap-nav-pills/ */
 .centered-pills {
     text-align: center
@@ -477,8 +482,10 @@ input[name=primaryemail] {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     #search-container{
-        padding-left: 15%;
-        padding-right: 40%;
+        /*padding-left: 15%;
+        padding-right: 40%;*/
+		padding-left: 20%;
+        padding-right: 25%;
     }
 }
 
@@ -831,8 +838,8 @@ a:hover .fading {
 /* md */
 @media (min-width: 992px){
 	#favorites .container {
-		padding-left: 15%;
-		padding-right: 25%;
+		padding-left: 20%;
+		padding-right: 20%;
 	}
 }
 

@@ -4,7 +4,7 @@
  *****<![endif]-->
 
 
-<html lang="cs">
+<html lang="ru">
     <head>        
 	<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -22,8 +22,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <meta name="robots" content="noindex" />
-    
     
     
     <title>Didactics CZ</title>
@@ -31,8 +29,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         
     
         
-    
-    <link rel="alternate" type="application/atom+xml" title="Projekt Littera na Didactics CZ" href="/cs/littera/rustina/atom.xml" />
     
     
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
@@ -104,6 +100,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--    <script type="text/javascript" src="/js/jquery.stickytableheaders.min.js"></script>        -->
             
 <!--    <script src='https://www.google.com/recaptcha/api.js?hl=' async defer></script>-->
+
+<!-- Validation start -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
+        
+    <script type="text/javascript"      src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js">
+    </script>
+
+    <script type="text/javascript">
+        var 
+            NAME_EMPTY = "Имя и фамилия не заданы",
+            NAME_TOO_SHORT = "Имя слишком короткое",
+            EMAIL_EMPTY = "E-mail не задан",
+            EMAIL_NOT_VALID = "Неправильный формат e-mail",
+            MESSAGE_EMPTY = "Сообщение не введено",
+            MESSAGE_TOO_LONG = "Сообщение слишком длинное";
+    </script>        
+        
+    <script type="text/javascript" src="/js/validation.js"></script>
+    
+<!-- Validation end -->
+
   </head>
     
 <!--<body data-spy="scroll" data-target=".sidebar">-->
@@ -171,10 +188,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <ul class="nav navbar-nav navbar-right">
                 
 				
-                  <li><a href="/#about-us">
-                      O nás
-                    </a></li>
-				
               </ul>
 
             </div><!-- /.navbar-collapse -->
@@ -185,124 +198,99 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </nav>
     
     <div class="container-fluid post-container">
-	   <div class="row">
-  		    <div class="sidebar-col col-xs-12 col-sm-4 col-md-3 sidebar-parent">
-<!--            <div class="sidebar hidden-print hidden-xs hidden-sm" data-spy="affix" data-offset-top="60" data-offset-bottom="200">-->
-<!--            <div class="sidebar hidden-print hidden-xs hidden-sm">-->
-                <div class="sidebar hidden-print">                
-                    <ul class="nav nav-stacked sidebar-toc section-nav">
-                        <li>
-<a href="#full-name">Jan Amos Komenský</a><ul><li><a href="#citaty">Citáty</a></li></ul>
-</li>
-                    </ul>                
-                </div>
-            </div>
+	   <div class="row">  		    
            
-            <div class="content-col col-xs-12 col-sm-8 col-md-9">
+            <div class="content-col">
                 <div class="content">
-                    <div class="row">
-
-  <div class="col-md-3 margin-top-25px">
-    <figure>
-        
-            <img src="/img/photos/comenius2.jpg" class="widget-person-photo fading rounded img-responsive shadow center-block">
+                    
+                        
+                        
+                        <div id="favorites" class="section">
+		<div class="container">
+			<div class="row row-eq-height">
                 
-    </figure>
-  </div>
-  
-  <div class="col-md-9">
-    <div class="row text-center">
-        <div class="col-md-12">
-            <h1 id="full-name">Jan Amos Komenský</h1>
-        </div>
-        
-        <div>
-            <p><b>1592 – 1670</b></p>
-<p class="text-left"><a href="https://cs.wikipedia.org/wiki/Jan_Amos_Komensk%C3%BD" target="_blank">Jan Amos Komenský</a> je považován za zakladatele moderní pedagogiky a vysloužil si přízvisko Učitel národů. Jeho hlavním dílem je <a href="https://cs.wikipedia.org/wiki/Didactica_magna" target="_blank">Didactica magna (Velká didaktika)</a>, v níž shrnul své pedagogické názory formou traktátu. Na svoji dobu došel k poznatkům, které by bylo možno označit za revoluční. Jeho věhlas započal již za jeho života, ale teprve mnohem později byla část jeho myšlenek doceněna a realizována. Jeho díla vyšla v mnoha překladech a ovlivnila evropské myšlení.</p>
-        </div>
-        
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <table class="table noborder">
-          <tbody>
-          
-            
-            
-            
-            
+                    <div class="col-md-12 col-sm-12 widget">
+                        
+                        <div class="panel panel-primary" style="overflow: hidden">
 
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
+  <img src="/img/littera/Littera_rggu.jpg" style="width:100%">
   
+  <div class="panel-body">
+    <h3 class="widget-title">Проект "Littera" в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов</h3>
+    <p class="widget-text"><br/>Приглашаем Вас на вебинар, организованный совместно <a href='http://www.rsuh.ru' target='#blank'>Российским Государственным Гуманитарным Университетом</a> и нашим порталом.<br/> <br/> Вебинар состоится <b>9 марта 2017 г.</b> (в четверг) в <b>17.30</b> по московскому времени.<br/> <br/> <b>Программа вебинара:</b> <ol> <li>Формирование социокультурной компетенции на уроках РКИ.</li>
+<li>Проект "Littera" &mdash; повышение качества обучения языкам в системе среднего и высшего образования.</li>
+<li>Электронные ресурсы для обучения русскому языку, созданные в Чехии.</li>
+<li>Q&amp;A &mdash; вопросы и ответы.</li> </ol></p>
+    <button type="submit" class="btn btn-default btn-success pull-right" data-toggle="modal" data-target="#webinar-rggu-registration-modal" tabindex="13">Записаться на вебинар</button>
+  </div>
 </div>
 
-<div class="row">
+<!-- Webinar Registration Modal -->
+<div id="webinar-rggu-registration-modal" tabindex="-1" class="name-email-form-modal modal fade" role="dialog">
+    <div class="modal-dialog">
 
-    <div class="col-md-12">
-        <h2 id="citaty">Citáty</h2>
+      <!-- Modal content-->
+      <div class="modal-content">
 
-<blockquote>
-  <p>Není dobré zoufat si nad pokrokem.</p>
-</blockquote>
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3>
+            Проект "Littera" в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов
+          </h3>
+        </div>
 
-<blockquote>
-  <p>Naši učitelé nesmějí být podobni sloupům u cest, jež pouze ukazují, kam jít, ale samy nejdou.</p>
-</blockquote>
+        <div class="modal-body">
+          <form class="name-email-form" action="//formspree.io/admin@didactics.cz"
+      method="POST">
+            <p style="margin-top: 5px; margin-bottom: 20px;">Введите Ваши данные, и в самое ближайшее время мы пришлем на Ваш электронный адрес ссылку для участия в данном вебинаре.</p>
+            <div class="form-group">
+              <input name="name" type="text" class="form-control" placeholder="Ваше полное имя" autofocus tabindex="31">
+            </div>
+            <div class="form-group">
+              <input name="primaryemail" type="email" class="form-control" placeholder="Ваш электронный адрес (e-mail)" data-bv-feedbackicons="false">
+            </div>
+            <div class="form-group">
+                <input name="webinar-name" type="" class="form-control" value="Проект &quot;Littera&quot; в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов" data-bv-feedbackicons="false">
+            </div>
+            <div class="form-group">
+              <input name="email" type="email" class="form-control" placeholder="Ваш электронный адрес (e-mail)" tabindex="32">
+            </div>
+            <div class="form-group">
+                    <h4 class="messages"></h4>
+            </div>
 
-<blockquote>
-  <p>Havraní křik “zí - tra, zí - tra” je zaručený pohřeb každého podniku.</p>
-</blockquote>
+<!--
+            <div class="form-group pull-right">
+              <div class="g-recaptcha" data-sitekey="6LcBaBsTAAAAAHWdgCATwlhZqT3u-47wcCjvbNPH"></div>
+            </div>
+-->
 
-<blockquote>
-  <p>Všechno ať samo plyne, ať ve věcech násilnost není. („Omnia sponte fluant, absint violencia rebus.“)</p>
-</blockquote>
+            <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Благодарим за желание участвовать в вебинаре.">
+            </div>
 
-<blockquote>
-  <p>Má-li se člověk stát člověkem, musí se vzdělat.</p>
-</blockquote>
+            <div class="popover-error" data-toggle="popover" data-placement="top" data-content="К сожалению, произошла ошибка. Попробуйте записаться позже.">
+            </div>
 
-<blockquote>
-  <p>Takový je příští věk, jak jsou vychováváni příští jeho občané.</p>
-</blockquote>
-
-<blockquote>
-  <p>Síla pravdy vyzbrojená světlem poznání je nepřemožitelná.</p>
-</blockquote>
-
-<blockquote>
-  <p>Existují věci nepoznané, ale neexistují věci nepoznatelné.</p>
-</blockquote>
-
-<blockquote>
-  <p>Cílem vzdělání a moudrosti je, aby člověk viděl před sebou jasnou cestu života, po ní opatrně vykračoval, pamatoval na minulost, znal přítomnost a předvídal budoucnost.</p>
-</blockquote>
-
-<blockquote>
-  <p>Světlo má moc zahnat tmu, ne naopak. Kdekoli totiž vzchází světlo, tam tma brzy buď řídne nebo mizí. A naopak tma nemá sil aby odstranila světlo.</p>
-</blockquote>
-
-<blockquote>
-  <p>Každému člověku je jeho věk školou.</p>
-</blockquote>
-
-<blockquote>
-  <p>Jediným učitelem hodným toho jména jest ten, který vzbuzuje ducha svobodného přemýšlení a vyvinuje cit osobní odpovědnosti.</p>
-</blockquote>
-
-<blockquote>
-  <p>Člověk dokonale učený jest strom na kořenu vlastním stojící, svou vlastní vláhou se napájející, vždycky stále a čím dále tím silněji rostoucí, zelenající se, kvetoucí, ovoce nesoucí.</p>
-</blockquote>
-
-
-
+            <!--<p class="text-success" style="margin-top: 5px; margin-bottom: 20px;">Odesláním formuláře souhlasím s využitím kontaktních údajů pro účely zasílání informačních e-mailů.</p>-->
+            
+            <button type="submit" class="btn btn-default btn-success pull-right" tabindex="33">Записаться</button>
+            
+            <div class="clearfix"></div>
+            
+          </form>
+        </div>
+      
+        </div>
     </div>
-    
 </div>
+							
+                    </div>
+                
+            </div>
+		</div>
+	</div>
 
+                    
                 </div>
             </div>
         </div>
@@ -313,7 +301,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!--
       <div id="footer-top" class="container-fluid">
         <div class="row">
-            <div class="social-share footer-text col-md-2">Sdílet tuto stránku</div>
+            <div class="social-share footer-text col-md-2">Поделиться страницей</div>
             <div class="social-media col-md-9" style="margin-top: 12px">
                 <div class="addthis_sharing_toolbox">
                 </div>
@@ -326,16 +314,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div id="footer-top" class="container-fluid">
         <div class="row">
             <div class="col-md-7">
-                <div class="social-share footer-text">Sdílet tuto stránku</div>
+                <div class="social-share footer-text">Поделиться страницей</div>
                 <div class="social-media-share addthis_sharing_toolbox"></div>
             </div>
             <div class="legal footer-text col-md-5">
                 <a href="/cs/legal/sla" target="_blank">
-                    Prohlášení&nbsp;o&nbsp;přístupnosti
+                    Соглашение&nbsp;об&nbsp;уровне&nbsp;обслуживания (SLA)
                 </a> | <a href="/cs/legal/personal-data" target="_blank">
-                    Ochrana&nbsp;údajů
+                    Защита&nbsp;личных&nbsp;данных
                 </a> | <a href="/cs/littera/rustina/sitemap" target="_blank">
-                    Mapa&nbsp;stránek
+                    Карта&nbsp;сайта
                 </a>
             </div>
         </div>
@@ -345,13 +333,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="row">
             
             <div class="copyright footer-text col-md-5">
-                © 2016-2017 Didactics CZ, všechna práva vyhrazena
+                © 2016-2017 Didactics CZ
             </div>
             
             <div class="col-md-7">
                 <div class="social-media-follow">
                     <div class="social-follow footer-text">
-                        Jsme na sociálních sítích
+                        Мы в социальных сетях
                     </div>
 
                     <div class="social-media footer-text text-left">
@@ -398,7 +386,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     
     <script type="text/javascript">
 		var addthis_config = {
-	      	ui_language: "cs"
+	      	ui_language: "ru"
 		}
 	</script>
     

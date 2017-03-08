@@ -4,7 +4,7 @@
  *****<![endif]-->
 
 
-<html lang="cs">
+<html lang="ru">
     <head>        
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,7 @@
         
     <meta name="viewport" content="width=device-width, initial-scale=1">
         
-    <title>Didactics CZ - Didaktický portál</title>
+    <title>Didactics CZ - Дидактический портал</title>
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
@@ -78,21 +78,21 @@
     
     <script type="text/javascript">
         var 
-            NAME_EMPTY = "Jméno není uvedeno",
-            NAME_TOO_SHORT = "Jméno je příliš krátké",
-            EMAIL_EMPTY = "E-mail není specifikován",
-            EMAIL_NOT_VALID = "Chybný formát e-mailu",
-            MESSAGE_EMPTY = "Zpráva není zadaná",
-            MESSAGE_TOO_LONG = "Zpráva je příliš dlouhá";
-            SEARCH_STATISTICS = "Nalezeno stránek: {0}"
-            SEARCH_NOTHING_FOUND = "Na Váš předmět vyhledávání nebyl nalezen žádný odkaz.<br/>Návrhy:<br/><ul class='search-results-nothing-found'><li>Ujistěte se, že všechna slova jsou napsána správně.</li><li>Zkuste jiná klíčová slova.</li><li>Zkuste obecnější klíčová slova.</li></ul>";
+            NAME_EMPTY = "Имя и фамилия не заданы",
+            NAME_TOO_SHORT = "Имя слишком короткое",
+            EMAIL_EMPTY = "E-mail не задан",
+            EMAIL_NOT_VALID = "Неправильный формат e-mail",
+            MESSAGE_EMPTY = "Сообщение не введено",
+            MESSAGE_TOO_LONG = "Сообщение слишком длинное";
+            SEARCH_STATISTICS = "Найдено страниц: {0}"
+            SEARCH_NOTHING_FOUND = "По Вашему запросу ничего не было найдено.<br/>Рекомендации:<br/><ul class='search-results-nothing-found'><li>Убедитесь, что все слова написаны без ошибок.</li><li>Попробуйте использовать другие ключевые слова.</li><li>Попробуйте использовать менее специфические ключевые слова.</li></ul>";
     </script>        
         
     <script type="text/javascript" src="/js/validation.js"></script>
     
 <!-- Validation end -->
     
-<!--    <script src='https://www.google.com/recaptcha/api.js?hl=cs' async defer></script>-->
+<!--    <script src='https://www.google.com/recaptcha/api.js?hl=ru' async defer></script>-->
     <!-- Google + -->
     <link href="https://plus.google.com/116972600786664529190" rel="publisher" />    
     
@@ -112,21 +112,21 @@
               <button type="button" class="close" data-dismiss="modal">&times;</button>
               <h3>
               <img width="48" height="48" title="Didactics CZ" src="/img/favicons/android-chrome-72x72.png">
-              <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;Odběr novinek e-mailem</h3>
+              <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;Почтовая рассылка</h3>
             </div>
 
             <div class="modal-body">
               <form id="email-subscription-form" class="name-email-form" action="//formspree.io/admin@didactics.cz"
           method="POST">
-                <p style="margin-top: 5px; margin-bottom: 20px;">Budeme posílat na Vaši e-mailovou adresu pouze ty nejdůležitější a nejzajímavější informace.</p>
+                <p style="margin-top: 5px; margin-bottom: 20px;">Мы будем посылать на Ваш электронный адрес только самую важную и интересную информацию.</p>
                 <div class="form-group">
-                  <input name="name" type="text" class="form-control" placeholder="Vaše jméno a příjmení" autofocus tabindex="11">
+                  <input name="name" type="text" class="form-control" placeholder="Ваши имя и фамилия" autofocus tabindex="11">
                 </div>
                 <div class="form-group">
-                  <input name="primaryemail" type="email" class="form-control" placeholder="Váš e-mail" data-bv-feedbackicons="false">
+                  <input name="primaryemail" type="email" class="form-control" placeholder="Ваш e-mail" data-bv-feedbackicons="false">
                 </div>
                 <div class="form-group">
-                  <input name="email" type="email" class="form-control" placeholder="Váš e-mail" tabindex="12">
+                  <input name="email" type="email" class="form-control" placeholder="Ваш e-mail" tabindex="12">
                 </div>
                 <div class="form-group">
                         <h4 class="messages"></h4>
@@ -138,15 +138,15 @@
                 </div>
     -->
 
-                <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Děkujeme Vám za přihlášení k odběru novinek.">
+                <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Спасибо, что Вы подписались!">
                 </div>
 
-                <div class="popover-error" data-toggle="popover" data-placement="top" data-content="Došlo k chybě serveru, zkuste to prosím později.">
+                <div class="popover-error" data-toggle="popover" data-placement="top" data-content="Ошибка сервера, попробуйте позже.">
                 </div>
 
-                <p class="text-success">Odesláním formuláře souhlasím s využitím kontaktních údajů pro účely zasílání informačních e-mailů.</p>
+                <p class="text-success">Отсылая данную форму, я даю согласие на использование запрошенных данных с целью получения информационных сообщений от сайта didactics.cz.</p>
                 
-                <button type="submit" class="btn btn-default btn-success pull-right" tabindex="13">Odeslat</button>
+                <button type="submit" class="btn btn-default btn-success pull-right" tabindex="13">Подписаться</button>
 
                 <div class="clearfix"></div>
                 
@@ -169,8 +169,8 @@
                 <h4 class="modal-title">
                     <img width="48" height="48" title="Didactics CZ" src="/img/favicons/android-chrome-72x72.png">
                     <img width="32" height="32" title="Search results" src="/img/social/rafi2/search2.png">&nbsp;&nbsp;
-                        Výsledky vyhledávání "<span id="search-results-phrase"></span>"</h4>
-    <!--                <h4><span class="glyphicon glyphicon-search" style="color: red;"></span>&nbsp;&nbsp;Výsledky vyhledávání</h4>-->
+                        Результаты поиска "<span id="search-results-phrase"></span>"</h4>
+    <!--                <h4><span class="glyphicon glyphicon-search" style="color: red;"></span>&nbsp;&nbsp;Результаты поиска</h4>-->
                         <!-- <p id="search-results-phrase"></p> -->
             </div>
 
@@ -183,7 +183,7 @@
 <!--                <button type="submit" class="btn btn-link" data-dismiss="modal"> Cancel</button>-->
 <!--                <a href="#"><button type="button" class="btn btn-success" data-dismiss="modal">Cancel</button></a>-->
                     <p id="search-results-statistics" class="text-center"></p>
-                    <button type="button" class="btn btn-default btn-success center-block" data-dismiss="modal" autofocus>Storno</button>
+                    <button type="button" class="btn btn-default btn-success center-block" data-dismiss="modal" autofocus>Отменить</button>
                 </div>
             </div>
           
@@ -231,12 +231,12 @@
                 <div class="col-md-12">
                     <div class="banner">
                         <a href="#">
-                            <img src="/img/banner/banner_cs.png" class="img-responsive">
+                            <img src="/img/banner/banner_ru.png" class="img-responsive">
                         </a>
                     </div>
                     <form method="GET" id="site_search">
                         <div id="searchbar" class="input-group input-group-lg" style="margin-top:20px;">
-                          <input id="search-input" class="form-control form-control-inline" type="search" placeholder="Hledat">
+                          <input id="search-input" class="form-control form-control-inline" type="search" placeholder="Найти">
                           <span class="input-group-btn"  style="padding-left: 2px;">
                             <button class="btn btn-lg btn-primary" type="submit">
                               <span class="glyphicon glyphicon-search"></span>
@@ -263,7 +263,7 @@
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu-collapsed" aria-expanded="false">
                 <div>
-                    <span class="sr-only">Prepnout navigace</span>
+                    <span class="sr-only">Переключение меню</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -289,7 +289,7 @@
                   <li id="home-item" style="display:none;">
                       <a href="#home">
                         <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-                        <span class="sr-only">Hlavní stranka</span> 
+                        <span class="sr-only">Домой</span> 
                       </a>
                   </li>
                   <li id="search-item" style="display:none;">
@@ -301,23 +301,23 @@
               <ul class="nav navbar-nav navbar-right">
 				
                   <li><a href = "#favorites">
-                      Novinky
+                      Новости
                     </a></li>
 				
                   <li><a href = "#about-us">
-                      O nás
+                      О нас
                     </a></li>
 				
                   <li><a href = "#social">
-                      Sociální média
+                      Соцсети
                     </a></li>
 				
                   <li><a href = "#subscription">
-                      Odběry
+                      Подписка
                     </a></li>
 				
                   <li><a href = "#contacts">
-                      Kontakty
+                      Контакты
                     </a></li>
 				
               </ul>
@@ -340,14 +340,78 @@
                 
                     <div class="col-md-12 col-sm-12 widget">
                         
-                        
-<a href="/cs/littera/rustina" class="widget-link">
-    <figure>
-        <img src="/img/littera/Littera_widget8.jpg" class="widget-image fading img-responsive">
-    </figure>
-    <p class="widget-title">Projekt Littera</p>
-    <p class="widget-text">Výukové materiály pro ruský jazyk (úrovně A1, A2, B1, B2)</p>
-</a>
+                        <div class="panel panel-primary" style="overflow: hidden">
+
+  <img src="/img/littera/Littera_rggu.jpg" style="width:100%">
+  
+  <div class="panel-body">
+    <h3 class="widget-title">Проект "Littera" в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов</h3>
+    <p class="widget-text"><br/>Приглашаем Вас на вебинар, организованный совместно <a href='http://www.rsuh.ru' target='#blank'>Российским Государственным Гуманитарным Университетом</a> и нашим порталом.<br/> <br/> Вебинар состоится <b>9 марта 2017 г.</b> (в четверг) в <b>17.30</b> по московскому времени.<br/> <br/> <b>Программа вебинара:</b> <ol> <li>Формирование социокультурной компетенции на уроках РКИ.</li>
+<li>Проект "Littera" &mdash; повышение качества обучения языкам в системе среднего и высшего образования.</li>
+<li>Электронные ресурсы для обучения русскому языку, созданные в Чехии.</li>
+<li>Q&amp;A &mdash; вопросы и ответы.</li> </ol></p>
+    <button type="submit" class="btn btn-default btn-success pull-right" data-toggle="modal" data-target="#webinar-rggu-registration-modal" tabindex="13">Записаться на вебинар</button>
+  </div>
+</div>
+
+<!-- Webinar Registration Modal -->
+<div id="webinar-rggu-registration-modal" tabindex="-1" class="name-email-form-modal modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3>
+            Проект "Littera" в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов
+          </h3>
+        </div>
+
+        <div class="modal-body">
+          <form class="name-email-form" action="//formspree.io/admin@didactics.cz"
+      method="POST">
+            <p style="margin-top: 5px; margin-bottom: 20px;">Введите Ваши данные, и в самое ближайшее время мы пришлем на Ваш электронный адрес ссылку для участия в данном вебинаре.</p>
+            <div class="form-group">
+              <input name="name" type="text" class="form-control" placeholder="Ваше полное имя" autofocus tabindex="31">
+            </div>
+            <div class="form-group">
+              <input name="primaryemail" type="email" class="form-control" placeholder="Ваш электронный адрес (e-mail)" data-bv-feedbackicons="false">
+            </div>
+            <div class="form-group">
+                <input name="webinar-name" type="" class="form-control" value="Проект &quot;Littera&quot; в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов" data-bv-feedbackicons="false">
+            </div>
+            <div class="form-group">
+              <input name="email" type="email" class="form-control" placeholder="Ваш электронный адрес (e-mail)" tabindex="32">
+            </div>
+            <div class="form-group">
+                    <h4 class="messages"></h4>
+            </div>
+
+<!--
+            <div class="form-group pull-right">
+              <div class="g-recaptcha" data-sitekey="6LcBaBsTAAAAAHWdgCATwlhZqT3u-47wcCjvbNPH"></div>
+            </div>
+-->
+
+            <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Благодарим за желание участвовать в вебинаре.">
+            </div>
+
+            <div class="popover-error" data-toggle="popover" data-placement="top" data-content="К сожалению, произошла ошибка. Попробуйте записаться позже.">
+            </div>
+
+            <!--<p class="text-success" style="margin-top: 5px; margin-bottom: 20px;">Odesláním formuláře souhlasím s využitím kontaktních údajů pro účely zasílání informačních e-mailů.</p>-->
+            
+            <button type="submit" class="btn btn-default btn-success pull-right" tabindex="33">Записаться</button>
+            
+            <div class="clearfix"></div>
+            
+          </form>
+        </div>
+      
+        </div>
+    </div>
+</div>
 							
                     </div>
                 
@@ -356,7 +420,7 @@
 	</div>
 
 	
-        <h2 class="text-primary text-center section-title">O nás</h2>
+        <h2 class="text-primary text-center section-title">О нас</h2>
         
 		<div id="about-us" class="section">
 		<div class="container">
@@ -367,22 +431,20 @@
                         <div class="">
     
     <blockquote>
-  <p>„Člověk dokonale učený jest strom na kořenu vlastním stojící, svou vlastní vláhou se napájející, vždycky stále a čím dále tím silněji rostoucí, zelenající se, kvetoucí, ovoce nesoucí.“
-– <a href="/cs/people/jan.amos.komensky">Jan Amos Komenský</a></p>
+  <p>“Человек, обученный основательно, есть дерево, имеющее свой собственный корень, питающее себя собственным соком и поэтому постоянно (сильнее и сильнее со дня на день) растущее, зеленеющее, цветущее, приносящее плоды” (<a href="http://jorigami.ru/PP_corner/Classics/Komensky/Komensky_Yan_Amos_Velikaya_didakt_izbr.htm">Ян Амос Коменский</a>).</p>
 </blockquote>
 
-<p>Náš didaktický portál byl vytvořen pro Vás, jestliže vyučujete, studujete nebo jestliže se chystáte proniknout do nových oblastí poznání.</p>
+<p>Наш дидактический портал создан для Вас, если Вы преподаёте, учитесь сами или лишь собираетесь открыть для себя новые области знания.</p>
 
-<p>Jsou na něm umístěny výukové materiály ověřené v praxi zkušenými učiteli. Vaše hodiny budou díky nim pestřejší a Vy ušetříte čas.</p>
+<p>Здесь размещены учебные материалы, проверенные на практике опытными учителями, чтобы разнообразить Ваши занятия и сэкономить Вам время на подготовку урока.</p>
 
-<p>Budete na něm zváni na webináře, na nichž se s Vámi budou o své zkušenosti dělit přední didaktikové působící nejen na univerzitách a v knihovnách, ale i učitelé využívající nejefektivnější výukové teorie v praxi ve škole, v univerzitních posluchárnách i v elektronickém prostoru.</p>
+<p>Здесь Вас пригласят на вебинары, на которых с Вами поделятся опытом ведущие дидактики, работающие не только в университетах и библиотеках, но и успешно применяющие самые эффективные теории обучения на практике в школьных классах, студенческих аудиториях и в электронном пространстве.</p>
 
-<p>Budete zde moci umisťovat vlastní materiály a dělit se o vlastní zkušenosti. Budete se zde moci naučit cizím jazykům a lépe poznat svou mateřštinu.</p>
+<p>Здесь Вы сможете разместить собственные материалы и поделиться ценным опытом. Здесь Вы сможете научиться иностранным языкам, а также лучше узнать родной.</p>
 
-<p>Připojte se k nám — ke společenství zajímavých lidí, kteří se rádi učí, umějí se učit a chtějí předávat své vědomosti dál.</p>
+<p>Присоединяйтесь к нам, к сообществу интересных людей, которые любят и умеют учиться и хотят передавать свои знания другим!</p>
 
-<p>Portál byl založen v r. 2017 didaktiky z českých univerzit. První materiály jsou určeny učitelům ruštiny v České republice.</p>
-
+<p>Портал был основан в 2017-м году учеными-дидактиками из чешских университетов. Первые материалы были адресованы преподавателям русского языка в Чешской республике.</p>
 
 </div>							
                     </div>
@@ -392,7 +454,7 @@
 	</div>
 
 	
-        <h2 class="text-primary text-center section-title">Sociální média</h2>
+        <h2 class="text-primary text-center section-title">Социальные сети</h2>
         
 		<div id="social" class="section">
 		<div class="container">
@@ -440,7 +502,7 @@
   <div class="panel-body social-media-widget">
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
     <a class="twitter-timeline" 
-        data-lang="cs"
+        data-lang="ru"
         data-chrome="noheader nofooter"
         data-height="600"
         href="https://twitter.com/didactics_cz">
@@ -493,7 +555,7 @@
     <h3 class="panel-title">LinkedIn</h3>
   </div>
   <div class="panel-body social-media-widget">
-    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: cs_CZ</script>
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: ru_RU</script>
 
     <div id="linkedinXsSmall">
         <script type="IN/CompanyProfile" data-id="10486013" data-format="inline" data-width="200px"></script>
@@ -524,7 +586,7 @@
 	</div>
 
 	
-        <h2 class="text-primary text-center section-title">Odběry</h2>
+        <h2 class="text-primary text-center section-title">Подписка</h2>
         
 		<div id="subscription" class="section">
     <div class="container">
@@ -537,7 +599,7 @@
     <h3 class="panel-title">YouTube</h3>
   </div>
   <div class="panel-body">
-    <p>Přihlaste se k odběru našeho kanálu na YouTube, kde najdete naše nová videa.</p>
+    <p>Подпишитесь на наш канал на YouTube, чтобы просматривать наши новые видеоматериалы.</p>
     
     <div class="text-align-center">
 <!--        <script src="https://apis.google.com/js/platform.js">{lang: 'cs_CZ'}</script> -->
@@ -555,11 +617,11 @@
     <h3 class="panel-title">E-mail</h3>
   </div>
   <div class="panel-body">
-    <p>Přihlaste se k odběru novinek e-mailem. Neposíláme žádný spam a můžete se kdykoliv odhlásit.</p>
+    <p>Подпишитесь на электронную рассылку. Не посылаем "спам", и Вы сможете легко отменить подписку в будущем.</p>
     
     <div class="text-align-center">
         <a role="button" class="btn btn-default btn-large" data-toggle="modal" data-target="#email-subscription-modal">
-            <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;                 Novinky e-mailem
+            <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;                 Почтовая рассылка
         </a>
     </div>
   </div>  
@@ -573,12 +635,12 @@
     <h3 class="panel-title">RSS</h3>
   </div>
   <div class="panel-body">
-    <p>S naším RSS kanálem Vám neuniknou žádné novinky, stačí se snadno přihlásit k jejich odběru.</p>
+    <p>Благодаря нашему RSS-каналу Вы не пропустите ни одной новости, достаточно просто подписаться.</p>
     
     <div class="text-align-center">
         <a role="button" class="btn btn-default btn-large" href="http://feeds.feedburner.com/didactics-cz-littera-rustina" target="_blank">
             <img width="32" height="32" title="RSS" src="/img/social/rafi2/rss.png">&nbsp;&nbsp;
-            Novinky přes RSS/Atom
+            Лента новостей
         </a>
     </div>
   </div>  
@@ -590,7 +652,7 @@
 </div>
 
 	
-        <h2 class="text-primary text-center section-title">Kontakty</h2>
+        <h2 class="text-primary text-center section-title">Контакты</h2>
         
 		<div id="contacts" class="section">
     <div class="container">
@@ -620,34 +682,34 @@
                     <h2 class="text-primary text-center"></h2>
                     					
                     
-                    <p>Abychom se posunouli ještě blíže k vám, jsme vytvořili účty v předních sociálních médií.</p>
+                    <p>Чтобы стать еще ближе к Вам, мы создали страницы в ведущих социальных сетях.</p>
 
-<p>Jsme nejen sdílujeme důležité novinky a informace o zajímavých akcích, ale také odpovidame na jakékoliv dotazy, vedeme dialogy a diskuze o tématech, které vás zajímají. Jakékoliv připomínky a návrhy jsou vítány!</p>
+<p>Мы не только делимся важными новостями и информацией об интересных событиях, но и отвечаем на любые вопросы, ведём диалоги и обсуждаем интересующие Вас темы. Любые высказывания и пожелания не останутся без внимания.</p>
 
-<p>Můžete se také přihlásit k seznamu krmiv nebo e-mailové. Připojte se k nám a musí být vždy nad věcí!</p>
+<p>Также Вы можете подписаться на ленту новостей или автоматическую почтовую рассылку. Присоединяйтесь к нам и будьте всегда в центре событий!</p>
 
-<p>Vyberte si ten nejpohodlnější formu komunikace a se zapojte!</p>
+<p>Выберите наиболее удобную для Вас форму общения и присоединяйтесь!</p>
 
                     <div class="row">
                     <div id="social-left" class="col-xs-12 col-sm-6">
                         <a role="button" class="social-btn btn btn-default btn-large" href="http://facebook.com/didactics.cz" target="_blank">
-                                <img width="32" height="32" title="Facebook" src="/img/social/rafi2/facebook.png">&nbsp;&nbsp;Přidejte se k nám na Facebooku
+                                <img width="32" height="32" title="Facebook" src="/img/social/rafi2/facebook.png">&nbsp;&nbsp;Наша страница на Facebook
                         </a>
                         <a role="button" class="social-btn btn btn-default btn-large" href="http://twitter.com/didactics_cz" target="_blank">
-                            <img width="32" height="32" title="Twitter" src="/img/social/rafi2/twitter.png">&nbsp;&nbsp;Přidejte se k nám na Twitteru</a>
+                            <img width="32" height="32" title="Twitter" src="/img/social/rafi2/twitter.png">&nbsp;&nbsp;Наш микроблог в Twitter</a>
                         <a role="button" class="social-btn btn btn-default btn-large" href="https://plus.google.com/116972600786664529190" target="_blank">
-                            <img width="32" height="32" title="Google+" src="/img/social/rafi2/googleplus.png">&nbsp;&nbsp;Přidejte se k nám na Google+</a>
+                            <img width="32" height="32" title="Google+" src="/img/social/rafi2/googleplus.png">&nbsp;&nbsp;Наша страница в Google+</a>
                         <a role="button" class="social-btn btn btn-default btn-large" href="https://www.linkedin.com/company/didactics-cz" target="_blank">
-                            <img width="32" height="32" title="LinkedIn" src="/img/social/rafi2/linkedin.png">&nbsp;&nbsp;Přidejte se k nám na LinkedIn</a>
+                            <img width="32" height="32" title="LinkedIn" src="/img/social/rafi2/linkedin.png">&nbsp;&nbsp;Наша страница в LinkedIn</a>
                         </div>
                         
                         <div id="social-right" class="col-xs-12 col-sm-6">
                         <a role="button" class="social-btn btn btn-default btn-large" href="https://www.youtube.com/channel/UC-FFveJo0B4nWR2ZPRDcv4g" target="_blank">
-                            <img width="32" height="32" title="YouTube" src="/img/social/rafi2/youtube.png">&nbsp;&nbsp;Přihláste se na náš kanál na YouTube</a>
+                            <img width="32" height="32" title="YouTube" src="/img/social/rafi2/youtube.png">&nbsp;&nbsp;Наш канал на YouTube</a>
                         <a role="button" class="social-btn btn btn-default btn-large" href="#" target="_blank">
-                            <img width="32" height="32" title="RSS" src="/img/social/rafi2/rss.png">&nbsp;&nbsp;Novinky přes RSS/Atom</a>                        
+                            <img width="32" height="32" title="RSS" src="/img/social/rafi2/rss.png">&nbsp;&nbsp;Лента новостей</a>                        
                         <a role="button" class="social-btn btn btn-default btn-large" data-toggle="modal" data-target="#email-subscription-modal">
-                            <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;Novinky e-mailem</a>
+                            <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;Почтовая рассылка</a>
               
                         </div>
                     </div>
@@ -672,7 +734,7 @@
                         </figure>
                     </div>
                     <div id="contact-us-info" class="col-ms-8 col-sm-5 col-md-4">
-                        <p class="contact-us-name"><b>Mgr. Elena Vasilyeva, CSc.</b><br/><small>Univerzita Karlova v Praze<br/>Univerzita Hradec Králové</small></p>
+                        <p class="contact-us-name"><b>Елена Анатольевна Васильева</b><br/><small>кандидат педагогических наук<br/>Карлов Университет в Праге<br/>Университет Градец Кралове</small></p>
                         <p>
                             <i class="fa fa-envelope-o"></i>
                             <a href="mailto: elena.vasilyeva@didactics.cz">elena.vasilyeva&#8203;@didactics.cz</a>
@@ -687,22 +749,22 @@
                 <div id="contact" class="col-xs-12 col-ms-12 col-sm-5 col-md-6">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
-                            <h4 class="panel-title">Napište nám</h4>
+                            <h4 class="panel-title">Напишите нам</h4>
                         </div>
                         <div class="panel-body">
         <form id="contact-form" class="name-email-message-inline-form" action="//formspree.io/elena.vasilyeva@didactics.cz"
       method="POST">
   <div class="form-group">
-    <input name="name" type="text" class="form-control" placeholder="Vaše jméno a příjmení" tabindex="21">
+    <input name="name" type="text" class="form-control" placeholder="Ваши имя и фамилия" tabindex="21">
   </div>
   <div id="email" class="form-group">
-    <input name="primaryemail" type="email" class="form-control" placeholder="Váš e-mail" data-bv-feedbackicons="false">
+    <input name="primaryemail" type="email" class="form-control" placeholder="Ваш e-mail" data-bv-feedbackicons="false">
   </div>
   <div class="form-group">
-    <input name="email" type="email" class="form-control" placeholder="Váš e-mail" tabindex="22">
+    <input name="email" type="email" class="form-control" placeholder="Ваш e-mail" tabindex="22">
   </div>
             <div class="form-group">
-                <textarea name="message" class="form-control resizable-memo" rows="10" placeholder="Vaše zpráva" tabindex="23"></textarea>
+                <textarea name="message" class="form-control resizable-memo" rows="10" placeholder="Ваше сообщение" tabindex="23"></textarea>
             </div>
             <div class="form-group">
                     <h4 class="messages"></h4>
@@ -714,15 +776,15 @@
             </div>
 -->
             
-            <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Děkujeme za Vaši zprávu!">
+            <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Спасибо за Ваше сообщение!">
             </div>
-            <div class="popover-error" data-toggle="popover" data-placement="top" data-content="Došlo k chybě serveru, zkuste to prosím později.">
+            <div class="popover-error" data-toggle="popover" data-placement="top" data-content="Ошибка сервера, попробуйте позже.">
             </div>
             <div class="form-group">
                 <div class="col-md-12 text-center">
                   <button type="submit" class="btn btn-primary" tabindex="24">
                       <i class="fa fa-envelope-o"></i>
-                      &nbsp;Odeslat
+                      &nbsp;Отправить
                     </button>
                 </div>
             </div>
@@ -739,7 +801,7 @@
 <!--
       <div id="footer-top" class="container-fluid">
         <div class="row">
-            <div class="social-share footer-text col-md-2">Sdílet tuto stránku</div>
+            <div class="social-share footer-text col-md-2">Поделиться страницей</div>
             <div class="social-media col-md-9" style="margin-top: 12px">
                 <div class="addthis_sharing_toolbox">
                 </div>
@@ -752,16 +814,16 @@
     <div id="footer-top" class="container-fluid">
         <div class="row">
             <div class="col-md-7">
-                <div class="social-share footer-text">Sdílet tuto stránku</div>
+                <div class="social-share footer-text">Поделиться страницей</div>
                 <div class="social-media-share addthis_sharing_toolbox"></div>
             </div>
             <div class="legal footer-text col-md-5">
                 <a href="/cs/legal/sla" target="_blank">
-                    Prohlášení&nbsp;o&nbsp;přístupnosti
+                    Соглашение&nbsp;об&nbsp;уровне&nbsp;обслуживания (SLA)
                 </a> | <a href="/cs/legal/personal-data" target="_blank">
-                    Ochrana&nbsp;údajů
+                    Защита&nbsp;личных&nbsp;данных
                 </a> | <a href="/cs/littera/rustina/sitemap" target="_blank">
-                    Mapa&nbsp;stránek
+                    Карта&nbsp;сайта
                 </a>
             </div>
         </div>
@@ -771,13 +833,13 @@
         <div class="row">
             
             <div class="copyright footer-text col-md-5">
-                © 2016-2017 Didactics CZ, všechna práva vyhrazena
+                © 2016-2017 Didactics CZ
             </div>
             
             <div class="col-md-7">
                 <div class="social-media-follow">
                     <div class="social-follow footer-text">
-                        Jsme na sociálních sítích
+                        Мы в социальных сетях
                     </div>
 
                     <div class="social-media footer-text text-left">
@@ -833,7 +895,7 @@
 <!--    
 	<script type="text/javascript">  
 		var addthis_config = {
-			ui_language: "cs" 
+			ui_language: "ru" 
 		}    
 	</script>
 	
@@ -842,12 +904,12 @@
     <!-- Google+ -->
         <script>
           window.___gcfg = {
-            lang: 'cs'
+            lang: 'ru'
           }
         </script>
 
         <script src="https://apis.google.com/js/platform.js" async defer>
-          {lang: 'cs'}
+          {lang: 'ru'}
         </script>
     <!-- LinkedIn 
         <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
@@ -860,7 +922,7 @@
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v2.8&appId=312493652471367";
+            js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8&appId=312493652471367";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>

@@ -4,7 +4,7 @@
 /*global $, jQuery, alert*/
 
 var
-    FALLBACK_LOCALE = 'en-us',
+    FALLBACK_LOCALE = 'cs-cz',
 
     language_lookup = {
         // https://en.wikipedia.org/wiki/English_language#Geographical_distribution
@@ -206,9 +206,9 @@ var
     },
 
     dir_lookup = {
-        "en-us" : "/",   // root
-        "en-gb" : "/",   // root
-        "cs-cz" : "/cs/",
+        "en-us" : "/en/",   
+        "en-gb" : "/en/", 
+        "cs-cz" : "/", // root
         "de-de" : "/de/",
         "fr-fr" : "/fr/",
         "ru-ru" : "/ru/"
