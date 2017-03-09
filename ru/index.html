@@ -1,212 +1,930 @@
----
-layout: main_ru
-lang: ru
-locale: ru_RU
-ref: main
+<!DOCTYPE HTML>
 
-# Header
-title: Didactics CZ - Дидактический портал
-banner: banner_ru.png
-search-ph: Найти
-search-results-title: Результаты поиска
-search-results-cancel: Отменить
-search-results-statistics: "Найдено страниц: {0}"
-search-results-nothing-found: "По Вашему запросу ничего не было найдено.<br/>Рекомендации:<br/><ul class='search-results-nothing-found'><li>Убедитесь, что все слова написаны без ошибок.</li><li>Попробуйте использовать другие ключевые слова.</li><li>Попробуйте использовать менее специфические ключевые слова.</li></ul>"
+<!--[if false]>***** Copyright (c) 2016 Didactics CZ. All rights reserved. Proprietary software. Legal issues: legal@didactics.cz
+ *****<![endif]-->
 
-# Menu
-menu-brand: Didactics CZ
 
-# Toggle navigation
-menu-sr: Переключение меню
-menu-home-sr: Домой
+<html lang="ru">
+    <head>        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Didactics CZ - Дидактический портал</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="/css/bootstrap-480-767-grid.css">        
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/noselect.css">
+    <link rel="stylesheet" href="/css/search.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+<!--    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet"> -->
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" type="text/javascript"></script>
+<!--    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>-->
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script>
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-# Sections
-sections:
-  -
-    name: favorites    
-    layout: 1column
-    menu-item: Новости
-    title: 
-    widgets:
-#      -
-#        name: webinar-rggu
-#        layout: text-html-rel
-#        file: webinars/2017_03_09_rggu.html
-      -
-        name: webinar-rggu
-        layout: webinar
-        ref: /cs/littera/rustina
-        img: /img/littera/Littera_rggu.jpg
-        title: "Проект \"Littera\" в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов"
-        text: "<br/>Приглашаем Вас на вебинар, организованный совместно <a href='http://www.rsuh.ru' target='#blank'>Российским Государственным Гуманитарным Университетом</a> и нашим порталом.<br/>
-        <br/>
-        Вебинар состоится <b>9 марта 2017 г.</b> (в четверг) в <b>17.30</b> по московскому времени.<br/>
-        <br/>
-        <b>Программа вебинара:</b>
-        <ol>
-		<li>Формирование социокультурной компетенции на уроках РКИ.</li>
+    <!--    <script type="text/javascript" src="/js/ajaxify.min.js"></script>-->    
+<!--    <script type="text/javascript" src="/js/jquery.history.js"></script>-->
+    <script type="text/javascript" src="/js/common.js"></script>    
+    <script type="text/javascript" src="/js/navbar.js"></script>
+    <script type="text/javascript" src="/js/locale.js"></script>
+<!--    <script type="text/javascript" src="/js/time.js"></script> -->
+    <script type="text/javascript" src="/js/slider.js"></script>
+    <script type="text/javascript" src="/js/search.js"></script>
+    
+    <!-- Lunr -->
+    <script type="text/javascript" src="/js/lunr.min.js"></script>
+    <script type="text/javascript" src="/js/lunr.stemmer.support.min.js"></script>
+    <script type="text/javascript" src="/js/lunr.multi.min.js"></script>
+    <script type="text/javascript" src="/js/lunr.ru.min.js"></script>
+    
+        
+<!-- Validation start -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/css/bootstrapValidator.min.css"/>
+        
+    <script type="text/javascript"      src="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.2/js/bootstrapValidator.min.js">
+    </script>
+    
+    <script type="text/javascript">
+        var 
+            NAME_EMPTY = "Имя и фамилия не заданы",
+            NAME_TOO_SHORT = "Имя слишком короткое",
+            EMAIL_EMPTY = "E-mail не задан",
+            EMAIL_NOT_VALID = "Неправильный формат e-mail",
+            MESSAGE_EMPTY = "Сообщение не введено",
+            MESSAGE_TOO_LONG = "Сообщение слишком длинное";
+            SEARCH_STATISTICS = "Найдено страниц: {0}"
+            SEARCH_NOTHING_FOUND = "По Вашему запросу ничего не было найдено.<br/>Рекомендации:<br/><ul class='search-results-nothing-found'><li>Убедитесь, что все слова написаны без ошибок.</li><li>Попробуйте использовать другие ключевые слова.</li><li>Попробуйте использовать менее специфические ключевые слова.</li></ul>";
+    </script>        
+        
+    <script type="text/javascript" src="/js/validation.js"></script>
+    
+<!-- Validation end -->
+    
+<!--    <script src='https://www.google.com/recaptcha/api.js?hl=ru' async defer></script>-->
+    <!-- Google + -->
+    <link href="https://plus.google.com/116972600786664529190" rel="publisher" />    
+    
+  </head>
+    
+<body id="main" data-spy="scroll" data-target=".navbar" data-offset="200">
+    <!--}-->
+    <!-- } --->
+    <!-- Email Subscription Modal -->
+    <div id="email-subscription-modal" tabindex="-1" class="name-email-form-modal modal fade" role="dialog">
+        <div class="modal-dialog">
 
-		<li>Проект \"Littera\" &mdash; повышение качества обучения языкам в системе среднего и высшего образования.</li>
+          <!-- Modal content-->
+          <div class="modal-content">
 
-		<li>Электронные ресурсы для обучения русскому языку, созданные в Чехии.</li>
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h3>
+              <img width="48" height="48" title="Didactics CZ" src="/img/favicons/android-chrome-72x72.png">
+              <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;Почтовая рассылка</h3>
+            </div>
 
-		<li>Q&amp;A &mdash; вопросы и ответы.</li>
-        </ol>"
-        button-title: Записаться на вебинар
-        # Webinar registration
-        reg-title: Запись на вебинар
-        reg-info: Введите Ваши данные, и в самое ближайшее время мы пришлем на Ваш электронный адрес ссылку для участия в данном вебинаре.
-        reg-name: Ваше полное имя
-        reg-email: Ваш электронный адрес (e-mail)
-        reg-submit: Записаться
-        reg-legal: Odesláním formuláře souhlasím s využitím kontaktních údajů pro účely zasílání informačních e-mailů.
-        reg-success: Благодарим за желание участвовать в вебинаре.
-        reg-error: К сожалению, произошла ошибка. Попробуйте записаться позже.
-  -
-    name: about-us
-    layout: 1column
-    menu-item: О нас
-    title: О нас
-    widgets:
-      -
-        name: about-us-text
-        layout: text
-        file: about-us/about-us_ru.md
-      # -
-        # name: people
-        # layout: section-wrapper
-        # section:
-          # layout: 6columns
-          # widgets:
-            # - name: elena-vasilyeva
-              # layout: person
-              # photo: /img/photos/elena.vasilyeva.jpg 
-              # full-name: Elena Vasilyeva
-              # ref: /cs/people/elena.vasilyeva
-            # - name: martin-mensik
-              # layout: person
-              # photo: /img/photos/martin.mensik.jpg 
-              # full-name: Martin Menšík
-              # ref: /cs/people/martin.mensik
-            # - name: daniela-simkova
-              # layout: person
-              # photo: /img/photos/daniela.simkova.jpg
-              # full-name: Daniela Šimková
-              # ref: /cs/people/daniela.simkova
-            # - name: barbora-hypiusova
-              # layout: person
-              # # photo: /img/photos/barbora.hypiusova.jpg
-              # full-name: Barbora Hypiusová
-              # ref: /cs/people/barbora.hypiusova
-            # - name: michaela-navratilova
-              # layout: person
-              # # photo: /img/photos/michaela.navratilova.jpg              
-              # full-name: Michaela Navrátilová
-              # ref: /cs/people/michaela.navratilova
-            # - name: sergei-vasilyev
-              # layout: person
-              # photo: /img/photos/sergei.vasilyev.jpg 
-              # full-name: Sergei Vasilyev
-              # ref: /cs/people/sergei.vasilyev
-  -
-    name: social
-    layout: 2columns
-    menu-item: Соцсети
-    title: Социальные сети
-    widgets:
-      -
-        name: facebook
-        layout: facebook
-      -
-        name: twitter
-        layout: twitter
-      -
-        name: googleplus
-        layout: googleplus
-      -
-        name: linkedin
-        layout: linkedin      
-  -
-    name: subscription
-    layout: 3columns
-    menu-item: Подписка
-    title: Подписка
-    widgets:
-      -
-        name: youtube
-        layout: youtube        
-        text: Подпишитесь на наш канал на YouTube, чтобы просматривать наши новые видеоматериалы.
-      -
-        name: email
-        layout: email
-        title: E-mail
-        text: Подпишитесь на электронную рассылку. Не посылаем "спам", и Вы сможете легко отменить подписку в будущем.
-      -
-        name: rss
-        layout: rss
-        title: RSS
-        text: Благодаря нашему RSS-каналу Вы не пропустите ни одной новости, достаточно просто подписаться.
-        ref: http://feeds.feedburner.com/didactics-cz-littera-rustina
-  -
-    name: contacts
-    layout: 12columns
-    menu-item: Контакты
-    title: Контакты    
+            <div class="modal-body">
+              <form id="email-subscription-form" class="name-email-form" action="//formspree.io/admin@didactics.cz"
+          method="POST">
+                <p style="margin-top: 5px; margin-bottom: 20px;">Мы будем посылать на Ваш электронный адрес только самую важную и интересную информацию.</p>
+                <div class="form-group">
+                  <input name="name" type="text" class="form-control" placeholder="Ваши имя и фамилия" autofocus tabindex="11">
+                </div>
+                <div class="form-group">
+                  <input name="primaryemail" type="email" class="form-control" placeholder="Ваш e-mail" data-bv-feedbackicons="false">
+                </div>
+                <div class="form-group">
+                  <input name="email" type="email" class="form-control" placeholder="Ваш e-mail" tabindex="12">
+                </div>
+                <div class="form-group">
+                        <h4 class="messages"></h4>
+                </div>
 
-# Social
-social-facebook: Наша страница на Facebook
-social-twitter: Наш микроблог в Twitter
-social-googleplus: Наша страница в Google+
-social-linkedin: Наша страница в LinkedIn
-social-youtube: Наш канал на YouTube
-social-email: Почтовая рассылка
-social-rss: Лента новостей
+    <!--
+                <div class="form-group pull-right">
+                  <div class="g-recaptcha" data-sitekey="6LcBaBsTAAAAAHWdgCATwlhZqT3u-47wcCjvbNPH"></div>
+                </div>
+    -->
 
-# Subscription
-subscribe-title: Почтовая рассылка
-subscribe-info: Мы будем посылать на Ваш электронный адрес только самую важную и интересную информацию.
-subscribe-name: Ваши имя и фамилия
-subscribe-email: Ваш e-mail
-subscribe-submit: Подписаться
-subscribe-legal: Отсылая данную форму, я даю согласие на использование запрошенных данных с целью получения информационных сообщений от сайта didactics.cz.
-subscribe-success: Спасибо, что Вы подписались!
-subscribe-error: Ошибка сервера, попробуйте позже.
+                <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Спасибо, что Вы подписались!">
+                </div>
 
-# Contacts
-#contact-us-name: Mgr. Elena Vasilyeva, CSc.
-contact-us-name: <b>Елена Анатольевна Васильева</b><br/><small>кандидат педагогических наук<br/>Карлов Университет в Праге<br/>Университет Градец Кралове</small>
-contact-us-ref: /cs/people/elena.vasilyeva
-contact-us-photo: /img/photos/elena.vasilyeva.jpg
-contact-us-email: elena.vasilyeva&#8203;@didactics.cz
-contact-us-email-link: elena.vasilyeva@didactics.cz
-#contact-us-phone-flag: /img/flags/32/cz.png
-#contact-us-phone-country: Чехия
-#contact-us-phone: (+420) 493&nbsp;331&nbsp;360
-#contact-us-phone-link: (+420) 493 331 360
-#contact-us-mobile-flag: /img/flags/32/cz.png
-#contact-us-mobile-country: Чехия
-#contact-us-mobile: (+420) 722&nbsp;745&nbsp;561
-#contact-us-mobile-link: (+420) 722 745 561"
-#contact-us-workday-first: Пн
-#contact-us-workday-last: пт
+                <div class="popover-error" data-toggle="popover" data-placement="top" data-content="Ошибка сервера, попробуйте позже.">
+                </div>
 
-# all times are in GMT
-#contact-us-worktime-start: "08:00"
-#contact-us-worktime-end: "16:00"
+                <p class="text-success">Отсылая данную форму, я даю согласие на использование запрошенных данных с целью получения информационных сообщений от сайта didactics.cz.</p>
+                
+                <button type="submit" class="btn btn-default btn-success pull-right" tabindex="13">Подписаться</button>
 
-contact-form-title: Напишите нам
-contact-form-name: Ваши имя и фамилия
-contact-form-email: Ваш e-mail
-contact-form-message: Ваше сообщение
-contact-form-submit: Отправить
-contact-form-success: Спасибо за Ваше сообщение!
-contact-form-error: Ошибка сервера, попробуйте позже.
+                <div class="clearfix"></div>
+                
+              </form>
+            </div>                        
+          
+            </div>
+        </div>
+    </div>  
+    
+    <!-- Search Results Modal -->
+    <!-- tabindex='-1' to close with Esc when the list of results is focused -->
+    <div id="search-results-modal" tabindex="-1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
 
-# Form validation
-validation-name-empty: Имя и фамилия не заданы
-validation-name-too-short: Имя слишком короткое
-validation-email-empty: E-mail не задан
-validation-email-not-valid: Неправильный формат e-mail
-validation-message-empty: Сообщение не введено
-validation-message-too-long: Сообщение слишком длинное
----
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">
+                    <img width="48" height="48" title="Didactics CZ" src="/img/favicons/android-chrome-72x72.png">
+                    <img width="32" height="32" title="Search results" src="/img/social/rafi2/search2.png">&nbsp;&nbsp;
+                        Результаты поиска "<span id="search-results-phrase"></span>"</h4>
+    <!--                <h4><span class="glyphicon glyphicon-search" style="color: red;"></span>&nbsp;&nbsp;Результаты поиска</h4>-->
+                        <!-- <p id="search-results-phrase"></p> -->
+            </div>
+
+            <div id="search-results-list" class="modal-body search-results">
+                <ul></ul>
+            </div>
+
+            <div class="modal-footer">
+<!--              <button type="submit" class="btn btn-default btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" style="color: red;"></span> Cancel</button>-->
+<!--                <button type="submit" class="btn btn-link" data-dismiss="modal"> Cancel</button>-->
+<!--                <a href="#"><button type="button" class="btn btn-success" data-dismiss="modal">Cancel</button></a>-->
+                    <p id="search-results-statistics" class="text-center"></p>
+                    <button type="button" class="btn btn-default btn-success center-block" data-dismiss="modal" autofocus>Отменить</button>
+                </div>
+            </div>
+          
+            </div>
+        </div>
+    
+    <!-- Main page -->
+    
+    <div id="home" class="background-photo">
+    </div>
+    
+    <div id="page-header" class="container">
+
+        <div id="language-selector-row" class="row" style="padding-top: 5px;">
+          <div id="language-selector" class="centered-pills">
+            <ul class="nav nav-pills pull-right-sm">
+            <!--
+              <li id="en-us">
+                <a href="/" data-placement="bottom" data-toggle="tooltip" title="English"><img src="/img/flags/32/us.png"></a>
+              </li>
+              <li id="en-gb">
+                <a href="/" data-placement="bottom" data-toggle="tooltip" title="English"><img src="/img/flags/32/gb.png"></a>
+              </li>
+              -->
+              <li id="cs-cz">
+                <a href="/" data-placement="bottom" data-toggle="tooltip" title="Čeština"><img src="/img/flags/32/cz.png"></a>
+              </li>
+              <!--
+              <li id="de-de">
+                <a href="/de/" data-placement="bottom" data-toggle="tooltip" title="Deutsch"><img src="/img/flags/32/de.png"></a>
+              </li>
+              <li id="fr-fr">
+                <a href="/fr/" data-placement="bottom" data-toggle="tooltip" title="Français"><img src="/img/flags/32/fr.png"></a>
+              </li>
+              -->
+              <li  id="ru-ru">
+                <a href="/ru/" data-placement="bottom" data-toggle="tooltip" title="Русский"><img src="/img/flags/32/ru.png"></a>
+              </li>
+            </ul>
+          </div>
+        </div>            
+
+        <div id="search-container" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner">
+                        <a href="#">
+                            <img src="/img/banner/banner_ru.png" class="img-responsive">
+                        </a>
+                    </div>
+                    <form method="GET" id="site_search">
+                        <div id="searchbar" class="input-group input-group-lg" style="margin-top:20px;">
+                          <input id="search-input" class="form-control form-control-inline" type="search" placeholder="Найти">
+                          <span class="input-group-btn"  style="padding-left: 2px;">
+                            <button class="btn btn-lg btn-primary" type="submit">
+                              <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                          </span>
+                        </div>
+                    </form>
+                    
+					<!--
+                    <div id="motto" class="text-primary text-center">
+                        <h2></h2> <a href="/cs/littera/rustina/index.html">Skip to test page</a>
+                    </div>
+					-->
+                </div>
+            </div>
+        </div>
+            
+    </div>
+
+<!--    <div id="mailmenu" class="section">-->
+        <nav id="main-menu" class="navbar navbar-inverse main-page-nav">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu-collapsed" aria-expanded="false">
+                <div>
+                    <span class="sr-only">Переключение меню</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+              </button>
+                
+                <a id="brand" class="navbar-brand" href="#" style="display:none; color:white;">
+<!--                    <img alt="Didactics CZ" class="img-responsive" src="/img/banner/banner5_cz.png" style="height: 100%;">-->
+<!--                    <img alt="Didactics CZ" class="img-responsive" src="/img/favicons/favicon-32x32.png" style="height: 100%;">-->
+<!--                    <span>Didactics</span> <span>CZ</span>-->
+                    <span style="float:left">
+                    <img class="img-responsive" src="/img/favicons/gray/a31_gray.72x72.png" style="height:40px; margin-top:-10px; margin-right:10px;">                        
+                    </span>
+<!--                    <span>Didactics</span> <span>CZ</span>-->
+                    <span style="float:left">
+                        Didactics CZ
+                    </span>                    
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mainmenu-collapsed">
+              <ul class="nav navbar-nav">
+                  <li id="home-item" style="display:none;">
+                      <a href="#home">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        <span class="sr-only">Домой</span> 
+                      </a>
+                  </li>
+                  <li id="search-item" style="display:none;">
+                      <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+                  </li>                  
+                  
+              </ul>    
+                
+              <ul class="nav navbar-nav navbar-right">
+				
+                  <li><a href = "#favorites">
+                      Новости
+                    </a></li>
+				
+                  <li><a href = "#about-us">
+                      О нас
+                    </a></li>
+				
+                  <li><a href = "#social">
+                      Соцсети
+                    </a></li>
+				
+                  <li><a href = "#subscription">
+                      Подписка
+                    </a></li>
+				
+                  <li><a href = "#contacts">
+                      Контакты
+                    </a></li>
+				
+              </ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+          <div class="container-fluid menu-shadow">
+                
+            </div>
+            <div id="nav-bottom"></div>
+        </nav>
+<!--    </div>-->
+
+	
+        
+        
+		<div id="favorites" class="section">
+		<div class="container">
+			<div class="row row-eq-height">
+                
+                    <div class="col-md-12 col-sm-12 widget">
+                        
+                        <div class="panel panel-primary" style="overflow: hidden">
+
+  <img src="/img/littera/Littera_rggu.jpg" style="width:100%">
+  
+  <div class="panel-body">
+    <h3 class="widget-title">Проект "Littera" в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов</h3>
+    <p class="widget-text"><br/>Приглашаем Вас на вебинар, организованный совместно <a href='http://www.rsuh.ru' target='#blank'>Российским Государственным Гуманитарным Университетом</a> и нашим порталом.<br/> <br/> Вебинар состоится <b>9 марта 2017 г.</b> (в четверг) в <b>17.30</b> по московскому времени.<br/> <br/> <b>Программа вебинара:</b> <ol> <li>Формирование социокультурной компетенции на уроках РКИ.</li>
+<li>Проект "Littera" &mdash; повышение качества обучения языкам в системе среднего и высшего образования.</li>
+<li>Электронные ресурсы для обучения русскому языку, созданные в Чехии.</li>
+<li>Q&amp;A &mdash; вопросы и ответы.</li> </ol></p>
+    <button type="submit" class="btn btn-default btn-success pull-right" data-toggle="modal" data-target="#webinar-rggu-registration-modal" tabindex="13">Записаться на вебинар</button>
+  </div>
+</div>
+
+<!-- Webinar Registration Modal -->
+<div id="webinar-rggu-registration-modal" tabindex="-1" class="name-email-form-modal modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3>
+            Проект "Littera" в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов
+          </h3>
+        </div>
+
+        <div class="modal-body">
+          <form class="name-email-form" action="//formspree.io/admin@didactics.cz"
+      method="POST">
+            <p style="margin-top: 5px; margin-bottom: 20px;">Введите Ваши данные, и в самое ближайшее время мы пришлем на Ваш электронный адрес ссылку для участия в данном вебинаре.</p>
+            <div class="form-group">
+              <input name="name" type="text" class="form-control" placeholder="Ваше полное имя" autofocus tabindex="31">
+            </div>
+            <div class="form-group">
+              <input name="primaryemail" type="email" class="form-control" placeholder="Ваш электронный адрес (e-mail)" data-bv-feedbackicons="false">
+            </div>
+            <div class="form-group">
+                <input name="webinar-name" type="" class="form-control" value="Проект &quot;Littera&quot; в помощь преподавателю РКИ: формирование социокультурной компетенции на уроках РКИ при помощи электронных ресурсов" data-bv-feedbackicons="false">
+            </div>
+            <div class="form-group">
+              <input name="email" type="email" class="form-control" placeholder="Ваш электронный адрес (e-mail)" tabindex="32">
+            </div>
+            <div class="form-group">
+                    <h4 class="messages"></h4>
+            </div>
+
+<!--
+            <div class="form-group pull-right">
+              <div class="g-recaptcha" data-sitekey="6LcBaBsTAAAAAHWdgCATwlhZqT3u-47wcCjvbNPH"></div>
+            </div>
+-->
+
+            <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Благодарим за желание участвовать в вебинаре.">
+            </div>
+
+            <div class="popover-error" data-toggle="popover" data-placement="top" data-content="К сожалению, произошла ошибка. Попробуйте записаться позже.">
+            </div>
+
+            <!--<p class="text-success" style="margin-top: 5px; margin-bottom: 20px;">Odesláním formuláře souhlasím s využitím kontaktních údajů pro účely zasílání informačních e-mailů.</p>-->
+            
+            <button type="submit" class="btn btn-default btn-success pull-right" tabindex="33">Записаться</button>
+            
+            <div class="clearfix"></div>
+            
+          </form>
+        </div>
+      
+        </div>
+    </div>
+</div>
+							
+                    </div>
+                
+            </div>
+		</div>
+	</div>
+
+	
+        <h2 class="text-primary text-center section-title">О нас</h2>
+        
+		<div id="about-us" class="section">
+		<div class="container">
+			<div class="row row-eq-height">
+                
+                    <div class="col-md-12 col-sm-12 widget">
+                        
+                        <div class="">
+    
+    <blockquote>
+  <p>“Человек, обученный основательно, есть дерево, имеющее свой собственный корень, питающее себя собственным соком и поэтому постоянно (сильнее и сильнее со дня на день) растущее, зеленеющее, цветущее, приносящее плоды” (<a href="http://jorigami.ru/PP_corner/Classics/Komensky/Komensky_Yan_Amos_Velikaya_didakt_izbr.htm">Ян Амос Коменский</a>).</p>
+</blockquote>
+
+<p>Наш дидактический портал создан для Вас, если Вы преподаёте, учитесь сами или лишь собираетесь открыть для себя новые области знания.</p>
+
+<p>Здесь размещены учебные материалы, проверенные на практике опытными учителями, чтобы разнообразить Ваши занятия и сэкономить Вам время на подготовку урока.</p>
+
+<p>Здесь Вас пригласят на вебинары, на которых с Вами поделятся опытом ведущие дидактики, работающие не только в университетах и библиотеках, но и успешно применяющие самые эффективные теории обучения на практике в школьных классах, студенческих аудиториях и в электронном пространстве.</p>
+
+<p>Здесь Вы сможете разместить собственные материалы и поделиться ценным опытом. Здесь Вы сможете научиться иностранным языкам, а также лучше узнать родной.</p>
+
+<p>Присоединяйтесь к нам, к сообществу интересных людей, которые любят и умеют учиться и хотят передавать свои знания другим!</p>
+
+<p>Портал был основан в 2017-м году учеными-дидактиками из чешских университетов. Первые материалы были адресованы преподавателям русского языка в Чешской республике.</p>
+
+</div>							
+                    </div>
+                
+            </div>
+		</div>
+	</div>
+
+	
+        <h2 class="text-primary text-center section-title">Социальные сети</h2>
+        
+		<div id="social" class="section">
+		<div class="container">
+			<div class="row row-eq-height">
+                
+                    <div class="col-md-6 col-sm-12 widget">
+                        
+                        <div class="panel panel-primary social-media-panel">    
+    <div class="panel-heading">
+        <h3 class="panel-title">Facebook</h3>
+    </div>
+    <div class="panel-body social-media-widget">
+        <div class="fb-page"
+            data-href="http://facebook.com/didactics.cz"
+            data-tabs="timeline"
+            data-width="400"
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="false">
+            <blockquote cite="http://facebook.com/didactics.cz" class="fb-xfbml-parse-ignore">
+                <a href="http://facebook.com/didactics.cz">Didactics CZ</a>
+            </blockquote>
+        </div>
+    </div>
+    
+    <div class="panel-footer">
+        <div class="margin-bottom-5px">
+            <div class="fb-send" data-href="http://facebook.com/didactics.cz" data-size="small"></div>
+            <div class="fb-save" data-uri="http://facebook.com/didactics.cz" data-size="small"></div>
+        </div>
+
+        <div class="fb-follow" data-href="http://facebook.com/didactics.cz" data-layout="standard" data-size="small" data-show-faces="true"></div>
+        <div class="fb-like" data-href="http://facebook.com/didactics.cz" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>        
+    </div>          
+</div>							
+                    </div>
+                
+                    <div class="col-md-6 col-sm-12 widget">
+                        
+                        <div class="panel panel-primary social-media-panel">
+  <div class="panel-heading">
+    <h3 class="panel-title">Twitter</h3>
+  </div>
+  <div class="panel-body social-media-widget">
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" 
+        data-lang="ru"
+        data-chrome="noheader nofooter"
+        data-height="600"
+        href="https://twitter.com/didactics_cz">
+            Didactics CZ - Tweets by didactics_cz
+    </a>
+  </div>
+  
+  <div class="panel-footer">
+        <a class="twitter-follow-button"
+            data-show-screen-name="false"
+            href="https://twitter.com/didactics_cz">
+                Follow @didactics_cz
+        </a>
+
+        <a class="twitter-share-button"
+            data-lang="cs"
+            href="https://twitter.com/didactics_cz">
+                Tweet
+        </a>
+  </div>
+</div>							
+                    </div>
+                
+                    <div class="col-md-6 col-sm-12 widget">
+                        
+                        <div class="panel panel-primary social-media-panel">
+  <div class="panel-heading">
+    <h3 class="panel-title">Google+</h3>
+  </div>
+  <div class="panel-body social-media-widget">
+    <div class="g-page" 
+        data-href="//plus.google.com/u/0/116972600786664529190"
+        data-rel="publisher"
+        data-width="400"
+    >
+    </div>
+  </div>
+  
+    <div class="panel-footer">
+        <div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/u/0/116972600786664529190" data-rel="publisher"></div>
+        <div class="g-plus" data-href="//plus.google.com/u/0/116972600786664529190" data-action="share" data-height="24"></div>  
+    </div>
+</div>    							
+                    </div>
+                
+                    <div class="col-md-6 col-sm-12 widget">
+                        
+                        <div class="panel panel-primary social-media-panel">
+  <div class="panel-heading">
+    <h3 class="panel-title">LinkedIn</h3>
+  </div>
+  <div class="panel-body social-media-widget">
+    <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: ru_RU</script>
+
+    <div id="linkedinXsSmall">
+        <script type="IN/CompanyProfile" data-id="10486013" data-format="inline" data-width="200px"></script>
+    </div>
+
+    <div id="linkedinSmall">
+        <script type="IN/CompanyProfile" data-id="10486013" data-format="inline" data-width="300px"></script>
+    </div>
+
+    <div id="linkedinMedium">
+        <script type="IN/CompanyProfile" data-id="10486013" data-format="inline" data-width="400px"></script>
+    </div>
+
+    <div id="linkedinDesktop">
+        <script type="IN/CompanyProfile" data-id="10486013" data-format="inline" data-width="600px"></script>
+    </div>
+  </div>
+  
+  <div class="panel-footer">
+        <script type="IN/FollowCompany" data-id="10486013" data-counter="right"></script>
+        <script type="IN/Share" data-id="10486013" data-counter="right"></script>
+  </div>
+</div>							
+                    </div>
+                
+            </div>
+		</div>
+	</div>
+
+	
+        <h2 class="text-primary text-center section-title">Подписка</h2>
+        
+		<div id="subscription" class="section">
+    <div class="container">
+        <div class="row row-eq-height">
+            
+                <div class="col-md-4 col-sm-6 widget">
+                    
+                    <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">YouTube</h3>
+  </div>
+  <div class="panel-body">
+    <p>Подпишитесь на наш канал на YouTube, чтобы просматривать наши новые видеоматериалы.</p>
+    
+    <div class="text-align-center">
+<!--        <script src="https://apis.google.com/js/platform.js">{lang: 'cs_CZ'}</script> -->
+        <div class="g-ytsubscribe" data-channelid="UC-FFveJo0B4nWR2ZPRDcv4g" data-layout="full" data-count="default">
+        </div>
+    </div>
+  </div>  
+</div>							
+                </div>
+            
+                <div class="col-md-4 col-sm-6 widget">
+                    
+                    <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">E-mail</h3>
+  </div>
+  <div class="panel-body">
+    <p>Подпишитесь на электронную рассылку. Не посылаем "спам", и Вы сможете легко отменить подписку в будущем.</p>
+    
+    <div class="text-align-center">
+        <a role="button" class="btn btn-default btn-large" data-toggle="modal" data-target="#email-subscription-modal">
+            <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;                 Почтовая рассылка
+        </a>
+    </div>
+  </div>  
+</div>							
+                </div>
+            
+                <div class="col-md-4 col-sm-6 widget">
+                    
+                    <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">RSS</h3>
+  </div>
+  <div class="panel-body">
+    <p>Благодаря нашему RSS-каналу Вы не пропустите ни одной новости, достаточно просто подписаться.</p>
+    
+    <div class="text-align-center">
+        <a role="button" class="btn btn-default btn-large" href="http://feeds.feedburner.com/didactics-cz-littera-rustina" target="_blank">
+            <img width="32" height="32" title="RSS" src="/img/social/rafi2/rss.png">&nbsp;&nbsp;
+            Лента новостей
+        </a>
+    </div>
+  </div>  
+</div>							
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+	
+        <h2 class="text-primary text-center section-title">Контакты</h2>
+        
+		<div id="contacts" class="section">
+    <div class="container">
+        <div class="row row-eq-height">
+            
+        </div>
+    </div>
+</div>
+
+	
+
+<!--    
+    <div id="section6" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-primary text-center"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="section7" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-primary text-center"></h2>
+                    					
+                    
+                    <p>Чтобы стать еще ближе к Вам, мы создали страницы в ведущих социальных сетях.</p>
+
+<p>Мы не только делимся важными новостями и информацией об интересных событиях, но и отвечаем на любые вопросы, ведём диалоги и обсуждаем интересующие Вас темы. Любые высказывания и пожелания не останутся без внимания.</p>
+
+<p>Также Вы можете подписаться на ленту новостей или автоматическую почтовую рассылку. Присоединяйтесь к нам и будьте всегда в центре событий!</p>
+
+<p>Выберите наиболее удобную для Вас форму общения и присоединяйтесь!</p>
+
+                    <div class="row">
+                    <div id="social-left" class="col-xs-12 col-sm-6">
+                        <a role="button" class="social-btn btn btn-default btn-large" href="http://facebook.com/didactics.cz" target="_blank">
+                                <img width="32" height="32" title="Facebook" src="/img/social/rafi2/facebook.png">&nbsp;&nbsp;Наша страница на Facebook
+                        </a>
+                        <a role="button" class="social-btn btn btn-default btn-large" href="http://twitter.com/didactics_cz" target="_blank">
+                            <img width="32" height="32" title="Twitter" src="/img/social/rafi2/twitter.png">&nbsp;&nbsp;Наш микроблог в Twitter</a>
+                        <a role="button" class="social-btn btn btn-default btn-large" href="https://plus.google.com/116972600786664529190" target="_blank">
+                            <img width="32" height="32" title="Google+" src="/img/social/rafi2/googleplus.png">&nbsp;&nbsp;Наша страница в Google+</a>
+                        <a role="button" class="social-btn btn btn-default btn-large" href="https://www.linkedin.com/company/didactics-cz" target="_blank">
+                            <img width="32" height="32" title="LinkedIn" src="/img/social/rafi2/linkedin.png">&nbsp;&nbsp;Наша страница в LinkedIn</a>
+                        </div>
+                        
+                        <div id="social-right" class="col-xs-12 col-sm-6">
+                        <a role="button" class="social-btn btn btn-default btn-large" href="https://www.youtube.com/channel/UC-FFveJo0B4nWR2ZPRDcv4g" target="_blank">
+                            <img width="32" height="32" title="YouTube" src="/img/social/rafi2/youtube.png">&nbsp;&nbsp;Наш канал на YouTube</a>
+                        <a role="button" class="social-btn btn btn-default btn-large" href="#" target="_blank">
+                            <img width="32" height="32" title="RSS" src="/img/social/rafi2/rss.png">&nbsp;&nbsp;Лента новостей</a>                        
+                        <a role="button" class="social-btn btn btn-default btn-large" data-toggle="modal" data-target="#email-subscription-modal">
+                            <img width="32" height="32" title="E-mail" src="/img/social/rafi2/email2.png">&nbsp;&nbsp;Почтовая рассылка</a>
+              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+-->    
+    <div id="section8" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-primary text-center"></h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <a href="/cs/people/elena.vasilyeva" class="widget-person-link nounderline black-link">                
+                    <div id="contact-us-photo" class="col-xs-6 col-ms-4 col-sm-2">                    
+                        <figure>
+                            <img src="/img/photos/elena.vasilyeva.jpg" class="widget-person-photo fading rounded img-responsive shadow">
+                        </figure>
+                    </div>
+                    <div id="contact-us-info" class="col-ms-8 col-sm-5 col-md-4">
+                        <p class="contact-us-name"><b>Елена Анатольевна Васильева</b><br/><small>кандидат педагогических наук<br/>Карлов Университет в Праге<br/>Университет Градец Кралове</small></p>
+                        <p>
+                            <i class="fa fa-envelope-o"></i>
+                            <a href="mailto: elena.vasilyeva@didactics.cz">elena.vasilyeva&#8203;@didactics.cz</a>
+                        </p>
+                        
+                        
+                        
+                    </div>
+                </a>                    
+                
+            
+                <div id="contact" class="col-xs-12 col-ms-12 col-sm-5 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">Напишите нам</h4>
+                        </div>
+                        <div class="panel-body">
+        <form id="contact-form" class="name-email-message-inline-form" action="//formspree.io/elena.vasilyeva@didactics.cz"
+      method="POST">
+  <div class="form-group">
+    <input name="name" type="text" class="form-control" placeholder="Ваши имя и фамилия" tabindex="21">
+  </div>
+  <div id="email" class="form-group">
+    <input name="primaryemail" type="email" class="form-control" placeholder="Ваш e-mail" data-bv-feedbackicons="false">
+  </div>
+  <div class="form-group">
+    <input name="email" type="email" class="form-control" placeholder="Ваш e-mail" tabindex="22">
+  </div>
+            <div class="form-group">
+                <textarea name="message" class="form-control resizable-memo" rows="10" placeholder="Ваше сообщение" tabindex="23"></textarea>
+            </div>
+            <div class="form-group">
+                    <h4 class="messages"></h4>
+            </div>
+            
+<!--
+            <div class="form-group pull-right">
+                <div class="g-recaptcha" data-sitekey="6LcBaBsTAAAAAHWdgCATwlhZqT3u-47wcCjvbNPH"></div>
+            </div>
+-->
+            
+            <div class="popover-success" data-toggle="popover" data-placement="top" data-content="Спасибо за Ваше сообщение!">
+            </div>
+            <div class="popover-error" data-toggle="popover" data-placement="top" data-content="Ошибка сервера, попробуйте позже.">
+            </div>
+            <div class="form-group">
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-primary" tabindex="24">
+                      <i class="fa fa-envelope-o"></i>
+                      &nbsp;Отправить
+                    </button>
+                </div>
+            </div>
+</form>                            
+                        </div>
+                    </div>
+                </div>                
+                </div>
+        </div>
+    </div>
+    
+    <div id="footer" class="section hidden-print">
+        
+<!--
+      <div id="footer-top" class="container-fluid">
+        <div class="row">
+            <div class="social-share footer-text col-md-2">Поделиться страницей</div>
+            <div class="social-media col-md-9" style="margin-top: 12px">
+                <div class="addthis_sharing_toolbox">
+                </div>
+                
+            </div>
+        </div>
+      </div>
+-->
+    
+    <div id="footer-top" class="container-fluid">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="social-share footer-text">Поделиться страницей</div>
+                <div class="social-media-share addthis_sharing_toolbox"></div>
+            </div>
+            <div class="legal footer-text col-md-5">
+                <a href="/cs/legal/sla" target="_blank">
+                    Соглашение&nbsp;об&nbsp;уровне&nbsp;обслуживания (SLA)
+                </a> | <a href="/cs/legal/personal-data" target="_blank">
+                    Защита&nbsp;личных&nbsp;данных
+                </a> | <a href="/cs/littera/rustina/sitemap" target="_blank">
+                    Карта&nbsp;сайта
+                </a>
+            </div>
+        </div>
+      </div>
+        
+      <div id="footer-bottom" class="container-fluid">
+        <div class="row">
+            
+            <div class="copyright footer-text col-md-5">
+                © 2016-2017 Didactics CZ
+            </div>
+            
+            <div class="col-md-7">
+                <div class="social-media-follow">
+                    <div class="social-follow footer-text">
+                        Мы в социальных сетях
+                    </div>
+
+                    <div class="social-media footer-text text-left">
+                      <a href="http://facebook.com/didactics.cz" target="_blank">
+                        <img class="social draggable" width="48" height="48" title="Facebook" src="/img/social/facebook.png" style="padding:9px;">
+                      </a>
+                      <a href="http://twitter.com/didactics_cz" target="_blank">
+                      <img class="social draggable" width="48" height="48" title="Twitter" src="/img/social/twitter.png" style="padding:9px;color: #f5f5f5;">
+                      </a>
+                        <a href="https://plus.google.com/116972600786664529190"  target="_blank">    
+                          <img class="social draggable" width="48" height="48" title="Google+" src="/img/social/gplus.png" style="padding:9px;">
+                      </a>
+                      <a href="https://www.linkedin.com/company/didactics-cz" target="_blank">
+                        <img class="social draggable" width="48" height="48" title="LinkedIn" src="/img/social/linkedin.png" style="padding:9px;">
+                      </a>
+                      <a href="https://www.youtube.com/channel/UC-FFveJo0B4nWR2ZPRDcv4g" target="_blank">
+                        <img class="social draggable" width="48" height="48" title="YouTube" src="/img/social/youtube.png" style="padding:9px;">
+                      </a>
+                      <a href="http://feeds.feedburner.com/didactics-cz-littera-rustina"  target="_blank">
+                        <img class="social draggable" width="48" height="48" title="RSS" src="/img/social/rss.png" style="padding:9px;">
+                      </a>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"Tato webová stránka používá cookies ke zlepšení prohlížení webu a poskytování dalších funkcí.","dismiss":"Souhlasím","learnMore":"Detaily","link":"/cs/legal/personal-data#cookies","theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+<!-- Begin AddThis to display share icons -->
+    <script type="text/javascript">
+        $('.main-menu-brand').addClass('js');
+        $('.main-menu-home-item').addClass('js');
+        $('.main-menu-search-item').addClass('js');
+    </script>
+    
+    <script type="text/javascript">
+		var addthis_config = {
+	      	ui_language: "cs"
+		}
+	</script>
+    
+  	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56cf4e6018e0fc4f" async="async"></script>
+<!-- End AddThis -->    
+<!--    
+	<script type="text/javascript">  
+		var addthis_config = {
+			ui_language: "ru" 
+		}    
+	</script>
+	
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56cf4e6018e0fc4f" async="async"></script>-->
+    
+    <!-- Google+ -->
+        <script>
+          window.___gcfg = {
+            lang: 'ru'
+          }
+        </script>
+
+        <script src="https://apis.google.com/js/platform.js" async defer>
+          {lang: 'ru'}
+        </script>
+    <!-- LinkedIn 
+        <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+    -->
+    
+    <!-- Facebook API -->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8&appId=312493652471367";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    </body>
+</html>
