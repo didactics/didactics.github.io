@@ -373,7 +373,7 @@ input[name=primaryemail] {
     left: -973em;
 }
 
-input[name=webinar-name] {
+input[class=hidden] {
     position: absolute;
     left: -973em;
 }
