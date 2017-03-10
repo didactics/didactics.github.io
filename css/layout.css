@@ -835,12 +835,24 @@ a:hover .fading {
 	max-width: 60%;
 }
 
+#quote .container {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: -20px;
+}
+	
 /* md */
 @media (min-width: 992px){
 	#favorites .container {
 		padding-left: 20%;
 		padding-right: 20%;
 	}
+	
+	#quote .container {
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-top: -20px;
+	}	
 }
 
 #main-menu {
