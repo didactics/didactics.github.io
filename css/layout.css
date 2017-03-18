@@ -946,3 +946,12 @@ table.noborder td {
 .item-label {
 	font-weight: bold;
 }
+
+.cc-link:hover, .cc-link:active {
+    color: #b2f7ff !important;
+}
+.cc-link, .cc-link:visited {
+    text-decoration: none !important;
+    color: #31a8f0 !important;
+    transition: 200ms color !important;
+}

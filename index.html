@@ -96,6 +96,40 @@
     <!-- Google + -->
     <link href="https://plus.google.com/116972600786664529190" rel="publisher" />    
     
+    <!-- Begin Cookie Consent plugin by Insites - https://cookieconsent.insites.com/download/# -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+<script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "Tato webová stránka používá cookies ke zlepšení prohlížení webu a poskytování dalších funkcí.",
+        "dismiss": "Souhlasím",
+        "link": "Detaily",
+        "href": "/cs/legal/personal-data#cookies"
+      },
+      "onPopupOpen": function() {
+        moveSmartsuppRight();
+      },
+      "onPopupClose": function() {
+        moveSmartsuppDown();
+      },
+      "location": true
+    })});
+</script>
+<!-- End Cookie Consent plugin -->
+
   </head>
     
 <body id="main" data-spy="scroll" data-target=".navbar" data-offset="200">
@@ -832,14 +866,6 @@
       </div>
     </div>
     
-    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-<script type="text/javascript">
-    window.cookieconsent_options = {"message":"Tato webová stránka používá cookies ke zlepšení prohlížení webu a poskytování dalších funkcí.","dismiss":"Souhlasím","learnMore":"Detaily","link":"/cs/legal/personal-data#cookies","theme":"dark-bottom"};
-</script>
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-<!-- End Cookie Consent plugin -->
-
 <!-- Begin AddThis to display share icons -->
     <script type="text/javascript">
         $('.main-menu-brand').addClass('js');
@@ -849,7 +875,7 @@
     
     <script type="text/javascript">
 		var addthis_config = {
-	      	ui_language: ""
+	      	ui_language: "cs"
 		}
 	</script>
     

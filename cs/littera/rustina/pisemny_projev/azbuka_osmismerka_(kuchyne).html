@@ -5,7 +5,7 @@
 
 
 <html lang="cs">
-    <head>        
+<head>        
 	<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -102,7 +102,41 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!--    <script type="text/javascript" src="/js/jquery.stickytableheaders.min.js"></script>        -->
             
 <!--    <script src='https://www.google.com/recaptcha/api.js?hl=' async defer></script>-->
-  </head>
+       <!-- Begin Cookie Consent plugin by Insites - https://cookieconsent.insites.com/download/# -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+<script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "Tato webová stránka používá cookies ke zlepšení prohlížení webu a poskytování dalších funkcí.",
+        "dismiss": "Souhlasím",
+        "link": "Detaily",
+        "href": "/cs/legal/personal-data#cookies"
+      },
+      "onPopupOpen": function() {
+        moveSmartsuppRight();
+      },
+      "onPopupClose": function() {
+        moveSmartsuppDown();
+      },
+      "location": true
+    })});
+</script>
+<!-- End Cookie Consent plugin -->
+
+</head>
     
 <!--<body data-spy="scroll" data-target=".sidebar">-->
 <body>
@@ -386,14 +420,6 @@ s.setAttribute('data-timestamp', +new Date());
       </div>
     </div>
     
-    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-<script type="text/javascript">
-    window.cookieconsent_options = {"message":"Tato webová stránka používá cookies ke zlepšení prohlížení webu a poskytování dalších funkcí.","dismiss":"Souhlasím","learnMore":"Detaily","link":"/cs/legal/personal-data#cookies","theme":"dark-bottom"};
-</script>
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
-<!-- End Cookie Consent plugin -->
-
 <!-- Begin AddThis to display share icons -->
     <script type="text/javascript">
         $('.main-menu-brand').addClass('js');
