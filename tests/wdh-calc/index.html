@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Workday hours calculator</title>
+
+  <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap/dist/css/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@v2.0.0-rc.13/dist/bootstrap-vue.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.min.js"></script>
+  <script src="//unpkg.com/bootstrap-vue@v2.0.0-rc.13/dist/bootstrap-vue.min.js"></script>
+
+  <style>
+    .list-group-item,
+    .table td,
+    .table th {
+      padding: .5rem;
+    }
+
+    .my-0 {
+      margin: .125rem 0 !important;
+    }
+
+    .m-0 {
+      margin: .125rem !important;
+    }
+
+    .test1 {
+      background-color: silver
+    }
+
+    .test2 {
+      background-color: gray
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <b-jumbotron header="Workday hours calculator" lead="Calculate workday hours with ease!" bg-variant="info"
+      text-variant="white" fluid class="text-center text-lg-left">
+    </b-jumbotron>
+
+    <b-container>
+      <b-alert :show="err !== ''" variant="danger" dismissible fade @dismissed="err=''">Error: {{err}}</a></b-alert>
+
+      <b-row align-v="center" class="justify-content-center">
+        <b-col md="10" lg="8" xl="6">
+
+          <b-card bg-variant="light">
+
+            <b-form>
+              <b-form-row>
+
+                <b-col>
+                  <h4>Workday schedule</h4>
+                  <b-form-checkbox-group class="ml-4 mt-3 mb-3 mb-md-0" stacked v-model="daysSelected" name="daysOfWeek"
+                    :options="daysOfWeek" @input="updateAll" />
+                </b-col>
+
+                <b-col cols="12" sm="7">
+                  <b-form-group label-cols-md="6" label="Workday start:" label-align="left" label-align-md="right" label-for="workStartTime">
+                    <b-form-input id="workStartTime" type="time" v-model="workStartTime" @input="updateAll" />
+                  </b-form-group>
+
+                  <b-form-group label-cols-md="6" label="Lunch break start:" label-align="left" label-align-md="right"
+                    label-for="lunchBreakStartTime">
+                    <b-form-input id="lunchBreakStartTime" type="time" v-model="lunchBreakStartTime"
+                      @input="updateAll" />
+                  </b-form-group>
+
+                  <b-form-group label-cols-md="6" label="Lunch break end:" label-align="left" label-align-md="right"
+                    label-for="lunchBreakEndTime">
+                    <b-form-input id="lunchBreakEndTime" type="time" v-model="lunchBreakEndTime" @input="updateAll" />
+                  </b-form-group>
+
+                  <b-form-group label-cols-md="6" label="Workday end:" label-align="left" label-align-md="right" label-for="workEndTime">
+                    <b-form-input id="workEndTime" type="time" v-model="workEndTime" @input="updateAll" />
+                  </b-form-group>
+
+                </b-col>
+              </b-form-row>
+            </b-form>
+
+          </b-card>
+
+        </b-col>
+      </b-row>
+
+      <b-row class="mb-4">
+
+        <b-col md="6" class="mt-4">
+          <b-card title="Elapsed time" sub-title="The number of workday hours between two date/times"
+            border-variant="info" header-bg-variant="info" header-text-variant="white">
+
+            <b-form-row class="mt-2">
+              <b-col>
+
+                <b-form-group label="Start date:" label-for="elapsedStartDate">
+                  <b-form-input id="elapsedStartDate" type="date" v-model="elapsedStartDate"
+                    @input="updateElapsedTime" />
+                </b-form-group>
+
+                <b-form-group label="Start time:" label-for="elapsedStartTime">
+                  <b-form-input id="elapsedStartTime" type="time" v-model="elapsedStartTime"
+                    @input="updateElapsedTime" />
+                </b-form-group>
+
+              </b-col>
+
+              <b-col>
+                <b-form-group label="End date:" label-for="elapsedEndDate">
+                  <b-form-input id="elapsedEndDate" type="date" v-model="elapsedEndDate" @input="updateElapsedTime" />
+                </b-form-group>
+
+                <b-form-group label="End time:" label-for="elapsedEndTime">
+                  <b-form-input id="elapsedEndTime" type="time" v-model="elapsedEndTime" @input="updateElapsedTime" />
+                </b-form-group>
+              </b-col>
+
+            </b-form-row>
+
+            <b-row align-h="center">
+              <h4>{{elapsedWorkdayHours}} workday hours</h4>
+            </b-row>
+
+          </b-card>
+        </b-col>
+
+        <b-col md="6" class="mt-4">
+          <b-card title="Future date/time" sub-title="The date/time in the future after a given amount of work hours"
+            border-variant="info" header-bg-variant="info" header-text-variant="white">
+            <b-form-row class="mt-2">
+              <b-col>
+
+                <b-form-group label="Start date:" label-for="futureStartDate">
+                  <b-form-input id="futureStartDate" type="date" v-model="futureStartDate"
+                    @input="updateFutureTime" />
+                </b-form-group>
+
+                <b-form-group label="Start time:" label-for="futureStartTime">
+                  <b-form-input id="futureStartTime" type="time" v-model="futureStartTime"
+                    @input="updateFutureTime" />
+                </b-form-group>
+
+              </b-col>
+
+              <b-col>
+                <b-form-group label="Duration (workday hours):" label-for="futureDuration">
+                  <b-form-input id="futureDuration" type="number" step="0.01"
+                    v-model="futureDuration" @input="updateFutureTime" />
+                </b-form-group>
+
+              </b-col>
+
+            </b-form-row>
+
+            <b-row align-h="center">
+              <h4>{{futureEndDate}}&nbsp;&nbsp;{{futureEndTime}}</h4>
+            </b-row>
+          </b-card>
+        </b-col>
+
+      </b-row>
+    </b-container>
+
+  </div>
+
+  <script src="./common.js"></script>
+  <script src="./date-time-util.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>

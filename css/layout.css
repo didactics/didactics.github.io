@@ -955,3 +955,20 @@ table.noborder td {
     color: #31a8f0 !important;
     transition: 200ms color !important;
 }
+
+
+iframe.embed-background {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	background-size: cover;
+}
+
+.cc-window {
+	z-index: 10000001 !important;
+}
